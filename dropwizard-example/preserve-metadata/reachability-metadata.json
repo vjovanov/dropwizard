@@ -1,0 +1,20 @@
+{
+  "reflection": [
+    {
+      "type": {
+        "proxy": [
+          "java.sql.Statement"
+        ]
+      }
+    },
+    {
+      "type": {
+        "proxy": [
+          "java.sql.PreparedStatement"
+        ]
+      }
+   }
+  ],
+  "resources": [
+  ]
+}
