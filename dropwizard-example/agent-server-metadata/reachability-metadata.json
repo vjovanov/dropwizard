@@ -1,0 +1,6350 @@
+{
+  "reflection": [
+    {
+      "type": "boolean[]"
+    },
+    {
+      "type": "byte[]"
+    },
+    {
+      "type": "ch.qos.logback.classic.BasicConfigurator",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "ch.qos.logback.classic.Logger"
+    },
+    {
+      "type": "ch.qos.logback.classic.joran.SerializedModelConfigurator",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "ch.qos.logback.classic.spi.LogbackServiceProvider"
+    },
+    {
+      "type": "ch.qos.logback.classic.util.DefaultJoranConfigurator",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "char[]"
+    },
+    {
+      "type": "com.codahale.metrics.MetricAttribute",
+      "allPublicFields": true
+    },
+    {
+      "type": "com.codahale.metrics.annotation.ResponseMeteredLevel",
+      "allDeclaredFields": true,
+      "allPublicFields": true
+    },
+    {
+      "type": "com.codahale.metrics.jersey3.InstrumentedResourceMethodApplicationListener",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "com.codahale.metrics.jmx.JmxReporter$JmxCounter"
+    },
+    {
+      "type": "com.codahale.metrics.jmx.JmxReporter$JmxCounterMBean"
+    },
+    {
+      "type": "com.codahale.metrics.jmx.JmxReporter$JmxGauge"
+    },
+    {
+      "type": "com.codahale.metrics.jmx.JmxReporter$JmxGaugeMBean"
+    },
+    {
+      "type": "com.codahale.metrics.jmx.JmxReporter$JmxMeter"
+    },
+    {
+      "type": "com.codahale.metrics.jmx.JmxReporter$JmxMeterMBean"
+    },
+    {
+      "type": "com.codahale.metrics.jmx.JmxReporter$JmxTimer"
+    },
+    {
+      "type": "com.codahale.metrics.jmx.JmxReporter$JmxTimerMBean"
+    },
+    {
+      "type": "com.example.helloworld.HelloWorldConfiguration",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        },
+        {
+          "name": "getDataSourceFactory",
+          "parameterTypes": []
+        },
+        {
+          "name": "getDefaultName",
+          "parameterTypes": []
+        },
+        {
+          "name": "getTemplate",
+          "parameterTypes": []
+        },
+        {
+          "name": "getViewRendererConfiguration",
+          "parameterTypes": []
+        },
+        {
+          "name": "setDataSourceFactory",
+          "parameterTypes": [
+            "io.dropwizard.db.DataSourceFactory"
+          ]
+        },
+        {
+          "name": "setDefaultName",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setTemplate",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setViewRendererConfiguration",
+          "parameterTypes": [
+            "java.util.Map"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "com.example.helloworld.auth.ExampleAuthenticator",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "com.example.helloworld.auth.ExampleAuthorizer",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "com.example.helloworld.core.Person",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        },
+        {
+          "name": "getFullName",
+          "parameterTypes": []
+        },
+        {
+          "name": "getId",
+          "parameterTypes": []
+        },
+        {
+          "name": "getJobTitle",
+          "parameterTypes": []
+        },
+        {
+          "name": "getYearBorn",
+          "parameterTypes": []
+        },
+        {
+          "name": "setFullName",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setId",
+          "parameterTypes": [
+            "long"
+          ]
+        },
+        {
+          "name": "setJobTitle",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setYearBorn",
+          "parameterTypes": [
+            "int"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "com.example.helloworld.core.Person_"
+    },
+    {
+      "type": "com.example.helloworld.core.package-info"
+    },
+    {
+      "type": "com.example.helloworld.filter.DateNotSpecifiedFilter",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "com.example.helloworld.filter.DateRequiredFeature",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "com.example.helloworld.resources.FilteredResource",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "com.example.helloworld.resources.HelloWorldResource",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "com.example.helloworld.resources.PeopleResource",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "createPerson",
+          "parameterTypes": [
+            "com.example.helloworld.core.Person"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "com.example.helloworld.resources.PersonResource",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "com.example.helloworld.resources.ProtectedResource",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "com.example.helloworld.resources.ViewResource",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "com.example.helloworld.tasks.EchoTask"
+    },
+    {
+      "type": "com.fasterxml.jackson.annotation.JsonIgnore"
+    },
+    {
+      "type": "com.fasterxml.jackson.annotation.JsonProperty"
+    },
+    {
+      "type": "com.fasterxml.jackson.annotation.JsonTypeInfo"
+    },
+    {
+      "type": "com.fasterxml.jackson.annotation.JsonTypeName"
+    },
+    {
+      "type": "com.fasterxml.jackson.annotation.JsonValue"
+    },
+    {
+      "type": "com.fasterxml.jackson.core.Versioned"
+    },
+    {
+      "type": "com.fasterxml.jackson.databind.ObjectMapper"
+    },
+    {
+      "type": "com.fasterxml.jackson.databind.annotation.JsonDeserialize"
+    },
+    {
+      "type": "com.fasterxml.jackson.databind.annotation.JsonSerialize"
+    },
+    {
+      "type": "com.fasterxml.jackson.databind.deser.BeanDeserializerModifier[]"
+    },
+    {
+      "type": "com.fasterxml.jackson.databind.deser.Deserializers[]"
+    },
+    {
+      "type": "com.fasterxml.jackson.databind.deser.KeyDeserializers[]"
+    },
+    {
+      "type": "com.fasterxml.jackson.databind.deser.ValueInstantiators[]"
+    },
+    {
+      "type": "com.fasterxml.jackson.databind.ext.Java7SupportImpl",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "com.fasterxml.jackson.databind.ser.BeanSerializerModifier[]"
+    },
+    {
+      "type": "com.fasterxml.jackson.databind.ser.Serializers[]"
+    },
+    {
+      "type": "com.fasterxml.jackson.databind.type.TypeModifier[]"
+    },
+    {
+      "type": "com.fasterxml.jackson.dataformat.xml.XmlMapper"
+    },
+    {
+      "type": "com.fasterxml.jackson.datatype.guava.GuavaModule"
+    },
+    {
+      "type": "com.fasterxml.jackson.datatype.hibernate5.jakarta.Hibernate5JakartaModule"
+    },
+    {
+      "type": "com.fasterxml.jackson.datatype.jdk8.Jdk8Module"
+    },
+    {
+      "type": "com.fasterxml.jackson.datatype.jsr310.JavaTimeModule"
+    },
+    {
+      "type": "com.fasterxml.jackson.jakarta.rs.base.ProviderBase",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "com.fasterxml.jackson.jakarta.rs.json.JacksonJsonProvider",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "com.fasterxml.jackson.jakarta.rs.json.JacksonXmlBindJsonProvider",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "com.fasterxml.jackson.module.blackbird.BlackbirdModule"
+    },
+    {
+      "type": "com.fasterxml.jackson.module.blackbird.deser.BBDeserializerModifier",
+      "methods": [
+        {
+          "name": "booleanTrampoline",
+          "parameterTypes": [
+            "com.fasterxml.jackson.module.blackbird.deser.BBDeserializerModifier$ObjBooleanBiFunction",
+            "java.lang.Object",
+            "boolean"
+          ]
+        },
+        {
+          "name": "intTrampoline",
+          "parameterTypes": [
+            "com.fasterxml.jackson.module.blackbird.deser.BBDeserializerModifier$ObjIntBiFunction",
+            "java.lang.Object",
+            "int"
+          ]
+        },
+        {
+          "name": "longTrampoline",
+          "parameterTypes": [
+            "com.fasterxml.jackson.module.blackbird.deser.BBDeserializerModifier$ObjLongBiFunction",
+            "java.lang.Object",
+            "long"
+          ]
+        },
+        {
+          "name": "trampoline",
+          "parameterTypes": [
+            "java.util.function.BiFunction",
+            "java.lang.Object",
+            "java.lang.Object"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "com.fasterxml.jackson.module.jakarta.xmlbind.JakartaXmlBindAnnotationModule"
+    },
+    {
+      "type": "com.fasterxml.jackson.module.jakarta.xmlbind.deser.DataHandlerDeserializer",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "com.fasterxml.jackson.module.jakarta.xmlbind.ser.DataHandlerSerializer",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "com.fasterxml.jackson.module.paramnames.ParameterNamesModule"
+    },
+    {
+      "type": "com.github.benmanes.caffeine.cache.BLCHeader$DrainStatusRef",
+      "fields": [
+        {
+          "name": "drainStatus"
+        }
+      ]
+    },
+    {
+      "type": "com.github.benmanes.caffeine.cache.BaseMpscLinkedArrayQueueColdProducerFields",
+      "fields": [
+        {
+          "name": "producerLimit"
+        }
+      ]
+    },
+    {
+      "type": "com.github.benmanes.caffeine.cache.BaseMpscLinkedArrayQueueConsumerFields",
+      "fields": [
+        {
+          "name": "consumerIndex"
+        }
+      ]
+    },
+    {
+      "type": "com.github.benmanes.caffeine.cache.BaseMpscLinkedArrayQueueProducerFields",
+      "fields": [
+        {
+          "name": "producerIndex"
+        }
+      ]
+    },
+    {
+      "type": "com.github.benmanes.caffeine.cache.BoundedLocalCache",
+      "fields": [
+        {
+          "name": "refreshes"
+        }
+      ]
+    },
+    {
+      "type": "com.github.benmanes.caffeine.cache.CacheLoader"
+    },
+    {
+      "type": "com.github.benmanes.caffeine.cache.PS",
+      "fields": [
+        {
+          "name": "key"
+        },
+        {
+          "name": "value"
+        }
+      ]
+    },
+    {
+      "type": "com.github.benmanes.caffeine.cache.PSW",
+      "fields": [
+        {
+          "name": "writeTime"
+        }
+      ],
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "com.github.benmanes.caffeine.cache.SSW",
+      "fields": [
+        {
+          "name": "FACTORY"
+        }
+      ]
+    },
+    {
+      "type": "com.github.benmanes.caffeine.cache.UnboundedLocalCache",
+      "fields": [
+        {
+          "name": "refreshes"
+        }
+      ]
+    },
+    {
+      "type": "com.ibm.icu.text.Collator"
+    },
+    {
+      "type": "com.sun.crypto.provider.AESCipher$General",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "com.sun.crypto.provider.ARCFOURCipher",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "com.sun.crypto.provider.ChaCha20Cipher$ChaCha20Poly1305",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "com.sun.crypto.provider.DESCipher",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "com.sun.crypto.provider.DESedeCipher",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "com.sun.crypto.provider.DHParameters",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "com.sun.crypto.provider.GaloisCounterMode$AESGCM",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "com.sun.crypto.provider.TlsMasterSecretGenerator",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "com.sun.el.ExpressionFactoryImpl",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "com.sun.management.GarbageCollectorMXBean"
+    },
+    {
+      "type": "com.sun.management.GcInfo"
+    },
+    {
+      "type": "com.sun.management.HotSpotDiagnosticMXBean"
+    },
+    {
+      "type": "com.sun.management.ThreadMXBean"
+    },
+    {
+      "type": "com.sun.management.UnixOperatingSystemMXBean"
+    },
+    {
+      "type": "com.sun.management.VMOption"
+    },
+    {
+      "type": "com.sun.management.internal.DiagnosticCommandArgumentInfo",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.lang.String",
+            "java.lang.String",
+            "java.lang.String",
+            "java.lang.String",
+            "boolean",
+            "boolean",
+            "boolean",
+            "int"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "com.sun.management.internal.DiagnosticCommandArgumentInfo[]"
+    },
+    {
+      "type": "com.sun.management.internal.DiagnosticCommandInfo",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.lang.String",
+            "java.lang.String",
+            "java.lang.String",
+            "boolean",
+            "java.util.List"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "com.sun.management.internal.DiagnosticCommandInfo[]"
+    },
+    {
+      "type": "com.sun.management.internal.GarbageCollectorExtImpl"
+    },
+    {
+      "type": "com.sun.management.internal.HotSpotDiagnostic"
+    },
+    {
+      "type": "com.sun.management.internal.HotSpotThreadImpl"
+    },
+    {
+      "type": "com.sun.management.internal.OperatingSystemImpl"
+    },
+    {
+      "type": "com.sun.management.internal.VirtualThreadSchedulerImpls$VirtualThreadSchedulerImpl"
+    },
+    {
+      "type": "com.sun.xml.internal.stream.events.XMLEventFactoryImpl",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "double[]"
+    },
+    {
+      "type": "float[]"
+    },
+    {
+      "type": "freemarker.core._2_4_OrLaterMarker"
+    },
+    {
+      "type": "freemarker.log._Log4jLoggerFactory",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "int[]"
+    },
+    {
+      "type": "io.dropwizard.auth.Auth"
+    },
+    {
+      "type": "io.dropwizard.auth.AuthDynamicFeature",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "io.dropwizard.auth.AuthFilter",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "io.dropwizard.auth.AuthValueFactoryProvider",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "org.glassfish.jersey.server.internal.inject.MultivaluedParameterExtractorProvider",
+            "io.dropwizard.auth.AuthValueFactoryProvider$PrincipalClassProvider"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.auth.AuthValueFactoryProvider$Binder",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "io.dropwizard.auth.basic.BasicCredentialAuthFilter",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "io.dropwizard.core.Configuration",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "getAdminFactory",
+          "parameterTypes": []
+        },
+        {
+          "name": "getHealthFactory",
+          "parameterTypes": []
+        },
+        {
+          "name": "getLoggingFactory",
+          "parameterTypes": []
+        },
+        {
+          "name": "getMetricsFactory",
+          "parameterTypes": []
+        },
+        {
+          "name": "getServerFactory",
+          "parameterTypes": []
+        },
+        {
+          "name": "setAdminFactory",
+          "parameterTypes": [
+            "io.dropwizard.core.setup.AdminFactory"
+          ]
+        },
+        {
+          "name": "setHealthFactory",
+          "parameterTypes": [
+            "io.dropwizard.health.HealthFactory"
+          ]
+        },
+        {
+          "name": "setLoggingFactory",
+          "parameterTypes": [
+            "io.dropwizard.logging.common.LoggingFactory"
+          ]
+        },
+        {
+          "name": "setMetricsFactory",
+          "parameterTypes": [
+            "io.dropwizard.metrics.common.MetricsFactory"
+          ]
+        },
+        {
+          "name": "setServerFactory",
+          "parameterTypes": [
+            "io.dropwizard.core.server.ServerFactory"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.core.server.AbstractServerFactory",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "getAllowedMethods",
+          "parameterTypes": []
+        },
+        {
+          "name": "getDetailedJsonProcessingExceptionMapper",
+          "parameterTypes": []
+        },
+        {
+          "name": "getDumpAfterStart",
+          "parameterTypes": []
+        },
+        {
+          "name": "getDumpBeforeStop",
+          "parameterTypes": []
+        },
+        {
+          "name": "getEnableThreadNameFilter",
+          "parameterTypes": []
+        },
+        {
+          "name": "getGid",
+          "parameterTypes": []
+        },
+        {
+          "name": "getGroup",
+          "parameterTypes": []
+        },
+        {
+          "name": "getGzipFilterFactory",
+          "parameterTypes": []
+        },
+        {
+          "name": "getIdleThreadTimeout",
+          "parameterTypes": []
+        },
+        {
+          "name": "getJerseyRootPath",
+          "parameterTypes": []
+        },
+        {
+          "name": "getMaxThreads",
+          "parameterTypes": []
+        },
+        {
+          "name": "getMetricPrefix",
+          "parameterTypes": []
+        },
+        {
+          "name": "getMinThreads",
+          "parameterTypes": []
+        },
+        {
+          "name": "getNofileHardLimit",
+          "parameterTypes": []
+        },
+        {
+          "name": "getNofileSoftLimit",
+          "parameterTypes": []
+        },
+        {
+          "name": "getRegisterDefaultExceptionMappers",
+          "parameterTypes": []
+        },
+        {
+          "name": "getRequestLogFactory",
+          "parameterTypes": []
+        },
+        {
+          "name": "getResponseMeteredLevel",
+          "parameterTypes": []
+        },
+        {
+          "name": "getShutdownGracePeriod",
+          "parameterTypes": []
+        },
+        {
+          "name": "getStartsAsRoot",
+          "parameterTypes": []
+        },
+        {
+          "name": "getUid",
+          "parameterTypes": []
+        },
+        {
+          "name": "getUmask",
+          "parameterTypes": []
+        },
+        {
+          "name": "getUser",
+          "parameterTypes": []
+        },
+        {
+          "name": "isEnableVirtualThreads",
+          "parameterTypes": []
+        },
+        {
+          "name": "isThreadPoolSizedCorrectly",
+          "parameterTypes": []
+        },
+        {
+          "name": "setAllowedMethods",
+          "parameterTypes": [
+            "java.util.Set"
+          ]
+        },
+        {
+          "name": "setDetailedJsonProcessingExceptionMapper",
+          "parameterTypes": [
+            "java.lang.Boolean"
+          ]
+        },
+        {
+          "name": "setDumpAfterStart",
+          "parameterTypes": [
+            "boolean"
+          ]
+        },
+        {
+          "name": "setDumpBeforeStop",
+          "parameterTypes": [
+            "boolean"
+          ]
+        },
+        {
+          "name": "setEnableThreadNameFilter",
+          "parameterTypes": [
+            "boolean"
+          ]
+        },
+        {
+          "name": "setEnableVirtualThreads",
+          "parameterTypes": [
+            "boolean"
+          ]
+        },
+        {
+          "name": "setGid",
+          "parameterTypes": [
+            "java.lang.Integer"
+          ]
+        },
+        {
+          "name": "setGroup",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setGzipFilterFactory",
+          "parameterTypes": [
+            "io.dropwizard.jetty.GzipHandlerFactory"
+          ]
+        },
+        {
+          "name": "setIdleThreadTimeout",
+          "parameterTypes": [
+            "io.dropwizard.util.Duration"
+          ]
+        },
+        {
+          "name": "setJerseyRootPath",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setMaxThreads",
+          "parameterTypes": [
+            "int"
+          ]
+        },
+        {
+          "name": "setMinThreads",
+          "parameterTypes": [
+            "int"
+          ]
+        },
+        {
+          "name": "setNofileHardLimit",
+          "parameterTypes": [
+            "java.lang.Integer"
+          ]
+        },
+        {
+          "name": "setNofileSoftLimit",
+          "parameterTypes": [
+            "java.lang.Integer"
+          ]
+        },
+        {
+          "name": "setRegisterDefaultExceptionMappers",
+          "parameterTypes": [
+            "java.lang.Boolean"
+          ]
+        },
+        {
+          "name": "setRequestLogFactory",
+          "parameterTypes": [
+            "io.dropwizard.request.logging.RequestLogFactory"
+          ]
+        },
+        {
+          "name": "setShutdownGracePeriod",
+          "parameterTypes": [
+            "io.dropwizard.util.Duration"
+          ]
+        },
+        {
+          "name": "setStartsAsRoot",
+          "parameterTypes": [
+            "java.lang.Boolean"
+          ]
+        },
+        {
+          "name": "setUid",
+          "parameterTypes": [
+            "java.lang.Integer"
+          ]
+        },
+        {
+          "name": "setUmask",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setUser",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.core.server.DefaultServerFactory",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        },
+        {
+          "name": "getAdminConnectors",
+          "parameterTypes": []
+        },
+        {
+          "name": "getAdminContextPath",
+          "parameterTypes": []
+        },
+        {
+          "name": "getAdminMaxThreads",
+          "parameterTypes": []
+        },
+        {
+          "name": "getAdminMinThreads",
+          "parameterTypes": []
+        },
+        {
+          "name": "getApplicationConnectors",
+          "parameterTypes": []
+        },
+        {
+          "name": "getApplicationContextPath",
+          "parameterTypes": []
+        },
+        {
+          "name": "isEnableAdminVirtualThreads",
+          "parameterTypes": []
+        },
+        {
+          "name": "setAdminConnectors",
+          "parameterTypes": [
+            "java.util.List"
+          ]
+        },
+        {
+          "name": "setAdminContextPath",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setAdminMaxThreads",
+          "parameterTypes": [
+            "int"
+          ]
+        },
+        {
+          "name": "setAdminMinThreads",
+          "parameterTypes": [
+            "int"
+          ]
+        },
+        {
+          "name": "setApplicationConnectors",
+          "parameterTypes": [
+            "java.util.List"
+          ]
+        },
+        {
+          "name": "setApplicationContextPath",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setEnableAdminVirtualThreads",
+          "parameterTypes": [
+            "boolean"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.core.server.ServerFactory",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "io.dropwizard.core.server.SimpleServerFactory"
+    },
+    {
+      "type": "io.dropwizard.core.setup.AdminFactory",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        },
+        {
+          "name": "getHealthChecks",
+          "parameterTypes": []
+        },
+        {
+          "name": "getTasks",
+          "parameterTypes": []
+        },
+        {
+          "name": "setHealthChecks",
+          "parameterTypes": [
+            "io.dropwizard.core.setup.HealthCheckConfiguration"
+          ]
+        },
+        {
+          "name": "setTasks",
+          "parameterTypes": [
+            "io.dropwizard.servlets.tasks.TaskConfiguration"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.core.setup.ExceptionMapperBinder",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "io.dropwizard.core.setup.HealthCheckConfiguration",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        },
+        {
+          "name": "getMaxThreads",
+          "parameterTypes": []
+        },
+        {
+          "name": "getMinThreads",
+          "parameterTypes": []
+        },
+        {
+          "name": "getWorkQueueSize",
+          "parameterTypes": []
+        },
+        {
+          "name": "isServletEnabled",
+          "parameterTypes": []
+        },
+        {
+          "name": "setMaxThreads",
+          "parameterTypes": [
+            "int"
+          ]
+        },
+        {
+          "name": "setMinThreads",
+          "parameterTypes": [
+            "int"
+          ]
+        },
+        {
+          "name": "setServletEnabled",
+          "parameterTypes": [
+            "boolean"
+          ]
+        },
+        {
+          "name": "setWorkQueueSize",
+          "parameterTypes": [
+            "int"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.core.validation.InjectValidatorFeature",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "io.dropwizard.db.DataSourceFactory",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        },
+        {
+          "name": "getAbandonWhenPercentageFull",
+          "parameterTypes": []
+        },
+        {
+          "name": "getAutoCommitByDefault",
+          "parameterTypes": []
+        },
+        {
+          "name": "getCheckConnectionOnBorrow",
+          "parameterTypes": []
+        },
+        {
+          "name": "getCheckConnectionOnConnect",
+          "parameterTypes": []
+        },
+        {
+          "name": "getCheckConnectionOnReturn",
+          "parameterTypes": []
+        },
+        {
+          "name": "getCheckConnectionWhileIdle",
+          "parameterTypes": []
+        },
+        {
+          "name": "getCommitOnReturn",
+          "parameterTypes": []
+        },
+        {
+          "name": "getDefaultCatalog",
+          "parameterTypes": []
+        },
+        {
+          "name": "getDefaultTransactionIsolation",
+          "parameterTypes": []
+        },
+        {
+          "name": "getDriverClass",
+          "parameterTypes": []
+        },
+        {
+          "name": "getEvictionInterval",
+          "parameterTypes": []
+        },
+        {
+          "name": "getInitialSize",
+          "parameterTypes": []
+        },
+        {
+          "name": "getInitializationQuery",
+          "parameterTypes": []
+        },
+        {
+          "name": "getJdbcInterceptors",
+          "parameterTypes": []
+        },
+        {
+          "name": "getLogAbandonedConnections",
+          "parameterTypes": []
+        },
+        {
+          "name": "getLogValidationErrors",
+          "parameterTypes": []
+        },
+        {
+          "name": "getMaxConnectionAge",
+          "parameterTypes": []
+        },
+        {
+          "name": "getMaxSize",
+          "parameterTypes": []
+        },
+        {
+          "name": "getMaxWaitForConnection",
+          "parameterTypes": []
+        },
+        {
+          "name": "getMinIdleTime",
+          "parameterTypes": []
+        },
+        {
+          "name": "getMinSize",
+          "parameterTypes": []
+        },
+        {
+          "name": "getPassword",
+          "parameterTypes": []
+        },
+        {
+          "name": "getProperties",
+          "parameterTypes": []
+        },
+        {
+          "name": "getReadOnlyByDefault",
+          "parameterTypes": []
+        },
+        {
+          "name": "getRemoveAbandonedTimeout",
+          "parameterTypes": []
+        },
+        {
+          "name": "getRollbackOnReturn",
+          "parameterTypes": []
+        },
+        {
+          "name": "getUrl",
+          "parameterTypes": []
+        },
+        {
+          "name": "getUseFairQueue",
+          "parameterTypes": []
+        },
+        {
+          "name": "getUser",
+          "parameterTypes": []
+        },
+        {
+          "name": "getValidationInterval",
+          "parameterTypes": []
+        },
+        {
+          "name": "getValidationQuery",
+          "parameterTypes": []
+        },
+        {
+          "name": "getValidationQueryTimeout",
+          "parameterTypes": []
+        },
+        {
+          "name": "getValidatorClassName",
+          "parameterTypes": []
+        },
+        {
+          "name": "isAlternateUsernamesAllowed",
+          "parameterTypes": []
+        },
+        {
+          "name": "isAutoCommentsEnabled",
+          "parameterTypes": []
+        },
+        {
+          "name": "isIgnoreExceptionOnPreLoad",
+          "parameterTypes": []
+        },
+        {
+          "name": "isInitialSizeGreaterThanMinSize",
+          "parameterTypes": []
+        },
+        {
+          "name": "isInitialSizeLessThanMaxSize",
+          "parameterTypes": []
+        },
+        {
+          "name": "isMinSizeLessThanMaxSize",
+          "parameterTypes": []
+        },
+        {
+          "name": "isRemoveAbandoned",
+          "parameterTypes": []
+        },
+        {
+          "name": "setAbandonWhenPercentageFull",
+          "parameterTypes": [
+            "int"
+          ]
+        },
+        {
+          "name": "setAlternateUsernamesAllowed",
+          "parameterTypes": [
+            "boolean"
+          ]
+        },
+        {
+          "name": "setAutoCommentsEnabled",
+          "parameterTypes": [
+            "boolean"
+          ]
+        },
+        {
+          "name": "setAutoCommitByDefault",
+          "parameterTypes": [
+            "java.lang.Boolean"
+          ]
+        },
+        {
+          "name": "setCheckConnectionOnBorrow",
+          "parameterTypes": [
+            "boolean"
+          ]
+        },
+        {
+          "name": "setCheckConnectionOnConnect",
+          "parameterTypes": [
+            "boolean"
+          ]
+        },
+        {
+          "name": "setCheckConnectionOnReturn",
+          "parameterTypes": [
+            "boolean"
+          ]
+        },
+        {
+          "name": "setCheckConnectionWhileIdle",
+          "parameterTypes": [
+            "boolean"
+          ]
+        },
+        {
+          "name": "setCommitOnReturn",
+          "parameterTypes": [
+            "boolean"
+          ]
+        },
+        {
+          "name": "setDefaultCatalog",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setDefaultTransactionIsolation",
+          "parameterTypes": [
+            "io.dropwizard.db.DataSourceFactory$TransactionIsolation"
+          ]
+        },
+        {
+          "name": "setDriverClass",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setEvictionInterval",
+          "parameterTypes": [
+            "io.dropwizard.util.Duration"
+          ]
+        },
+        {
+          "name": "setIgnoreExceptionOnPreLoad",
+          "parameterTypes": [
+            "boolean"
+          ]
+        },
+        {
+          "name": "setInitialSize",
+          "parameterTypes": [
+            "int"
+          ]
+        },
+        {
+          "name": "setInitializationQuery",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setJdbcInterceptors",
+          "parameterTypes": [
+            "java.util.Optional"
+          ]
+        },
+        {
+          "name": "setLogAbandonedConnections",
+          "parameterTypes": [
+            "boolean"
+          ]
+        },
+        {
+          "name": "setLogValidationErrors",
+          "parameterTypes": [
+            "boolean"
+          ]
+        },
+        {
+          "name": "setMaxConnectionAge",
+          "parameterTypes": [
+            "io.dropwizard.util.Duration"
+          ]
+        },
+        {
+          "name": "setMaxSize",
+          "parameterTypes": [
+            "int"
+          ]
+        },
+        {
+          "name": "setMaxWaitForConnection",
+          "parameterTypes": [
+            "io.dropwizard.util.Duration"
+          ]
+        },
+        {
+          "name": "setMinIdleTime",
+          "parameterTypes": [
+            "io.dropwizard.util.Duration"
+          ]
+        },
+        {
+          "name": "setMinSize",
+          "parameterTypes": [
+            "int"
+          ]
+        },
+        {
+          "name": "setPassword",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setProperties",
+          "parameterTypes": [
+            "java.util.Map"
+          ]
+        },
+        {
+          "name": "setReadOnlyByDefault",
+          "parameterTypes": [
+            "java.lang.Boolean"
+          ]
+        },
+        {
+          "name": "setRemoveAbandoned",
+          "parameterTypes": [
+            "boolean"
+          ]
+        },
+        {
+          "name": "setRemoveAbandonedTimeout",
+          "parameterTypes": [
+            "io.dropwizard.util.Duration"
+          ]
+        },
+        {
+          "name": "setRollbackOnReturn",
+          "parameterTypes": [
+            "boolean"
+          ]
+        },
+        {
+          "name": "setUrl",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setUseFairQueue",
+          "parameterTypes": [
+            "boolean"
+          ]
+        },
+        {
+          "name": "setUser",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setValidationInterval",
+          "parameterTypes": [
+            "io.dropwizard.util.Duration"
+          ]
+        },
+        {
+          "name": "setValidationQuery",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setValidationQueryTimeout",
+          "parameterTypes": [
+            "io.dropwizard.util.Duration"
+          ]
+        },
+        {
+          "name": "setValidatorClassName",
+          "parameterTypes": [
+            "java.util.Optional"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.db.DataSourceFactory$TransactionIsolation",
+      "allDeclaredFields": true,
+      "allPublicFields": true
+    },
+    {
+      "type": "io.dropwizard.db.PooledDataSourceFactory",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "io.dropwizard.health.DefaultHealthFactory"
+    },
+    {
+      "type": "io.dropwizard.health.HealthFactory"
+    },
+    {
+      "type": "io.dropwizard.health.response.HealthResponderFactory"
+    },
+    {
+      "type": "io.dropwizard.health.response.HealthResponseProviderFactory"
+    },
+    {
+      "type": "io.dropwizard.health.response.JsonHealthResponseProviderFactory"
+    },
+    {
+      "type": "io.dropwizard.health.response.ServletHealthResponderFactory"
+    },
+    {
+      "type": "io.dropwizard.hibernate.UnitOfWork"
+    },
+    {
+      "type": "io.dropwizard.hibernate.UnitOfWorkApplicationListener",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "io.dropwizard.http2.Http2CConnectorFactory"
+    },
+    {
+      "type": "io.dropwizard.http2.Http2ConnectorFactory"
+    },
+    {
+      "type": "io.dropwizard.jackson.Discoverable",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "io.dropwizard.jersey.DropwizardResourceConfig"
+    },
+    {
+      "type": "io.dropwizard.jersey.DropwizardResourceConfig$ComponentLoggingListener",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "io.dropwizard.jersey.DropwizardResourceConfig$MetricRegistryBinder",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "io.dropwizard.jersey.DropwizardResourceConfig$SpecificBinder"
+    },
+    {
+      "type": "io.dropwizard.jersey.DropwizardResourceConfig$SpecificBinder831e7017-a925-48cb-89f4-6f5af8730e42",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.lang.Object",
+            "java.lang.Class"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.jersey.DropwizardResourceConfig$SpecificBinder8ac1949d-e58d-4468-b998-2e5db1274e6f",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.lang.Object",
+            "java.lang.Class"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.jersey.DropwizardResourceConfig$SpecificBinderb8638f94-ee60-46e6-849b-b0390184caaa",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.lang.Object",
+            "java.lang.Class"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.jersey.DropwizardResourceConfig$SpecificBindercbcd6842-89ea-4d66-abc5-2ca2ed8bdc19",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.lang.Object",
+            "java.lang.Class"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.jersey.DropwizardResourceConfig$SpecificBinderdbaae112-1b5a-4039-be19-fce1a62a722a",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.lang.Object",
+            "java.lang.Class"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.jersey.DropwizardResourceConfig$SpecificBinderec7a16cd-6c22-4403-87a1-bdd5559155af",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.lang.Object",
+            "java.lang.Class"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.jersey.caching.CacheControlledResponseFeature",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.jersey.errors.EofExceptionWriterInterceptor",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "com.codahale.metrics.MetricRegistry"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.jersey.filter.AllowedMethodsFilter",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.jersey.guava.OptionalMessageBodyWriter",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.jersey.guava.OptionalParamBinder",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "io.dropwizard.jersey.guava.OptionalParamConverterProvider",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "org.glassfish.jersey.internal.inject.InjectionManager"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.jersey.jackson.JacksonFeature",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "io.dropwizard.jersey.jackson.JacksonMessageBodyProvider",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "io.dropwizard.jersey.jsr310.LocalDateParam"
+    },
+    {
+      "type": "io.dropwizard.jersey.optional.OptionalDoubleMessageBodyWriter",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.jersey.optional.OptionalIntMessageBodyWriter",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.jersey.optional.OptionalLongMessageBodyWriter",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.jersey.optional.OptionalMessageBodyWriter",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.jersey.params.AbstractParamConverterProvider",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.jersey.sessions.SessionFactoryProvider",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "jakarta.inject.Provider",
+            "org.glassfish.jersey.internal.inject.InjectionManager"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.jersey.sessions.SessionFactoryProvider$Binder",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "io.dropwizard.jersey.validation.FuzzyEnumParamConverterProvider",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "io.dropwizard.jersey.validation.HibernateValidationBinder",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "io.dropwizard.jetty.ConnectorFactory",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "io.dropwizard.jetty.GzipHandlerFactory",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        },
+        {
+          "name": "getBufferSize",
+          "parameterTypes": []
+        },
+        {
+          "name": "getCompressedMimeTypes",
+          "parameterTypes": []
+        },
+        {
+          "name": "getDeflateCompressionLevel",
+          "parameterTypes": []
+        },
+        {
+          "name": "getExcludedMimeTypes",
+          "parameterTypes": []
+        },
+        {
+          "name": "getExcludedPaths",
+          "parameterTypes": []
+        },
+        {
+          "name": "getIncludedMethods",
+          "parameterTypes": []
+        },
+        {
+          "name": "getIncludedPaths",
+          "parameterTypes": []
+        },
+        {
+          "name": "getMinimumEntitySize",
+          "parameterTypes": []
+        },
+        {
+          "name": "isEnabled",
+          "parameterTypes": []
+        },
+        {
+          "name": "isSyncFlush",
+          "parameterTypes": []
+        },
+        {
+          "name": "setBufferSize",
+          "parameterTypes": [
+            "io.dropwizard.util.DataSize"
+          ]
+        },
+        {
+          "name": "setCompressedMimeTypes",
+          "parameterTypes": [
+            "java.util.Set"
+          ]
+        },
+        {
+          "name": "setDeflateCompressionLevel",
+          "parameterTypes": [
+            "int"
+          ]
+        },
+        {
+          "name": "setEnabled",
+          "parameterTypes": [
+            "boolean"
+          ]
+        },
+        {
+          "name": "setExcludedMimeTypes",
+          "parameterTypes": [
+            "java.util.Set"
+          ]
+        },
+        {
+          "name": "setExcludedPaths",
+          "parameterTypes": [
+            "java.util.Set"
+          ]
+        },
+        {
+          "name": "setIncludedMethods",
+          "parameterTypes": [
+            "java.util.Set"
+          ]
+        },
+        {
+          "name": "setIncludedPaths",
+          "parameterTypes": [
+            "java.util.Set"
+          ]
+        },
+        {
+          "name": "setMinimumEntitySize",
+          "parameterTypes": [
+            "io.dropwizard.util.DataSize"
+          ]
+        },
+        {
+          "name": "setSyncFlush",
+          "parameterTypes": [
+            "boolean"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.jetty.HttpConnectorFactory",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        },
+        {
+          "name": "setAcceptQueueSize",
+          "parameterTypes": [
+            "java.lang.Integer"
+          ]
+        },
+        {
+          "name": "setAcceptorThreads",
+          "parameterTypes": [
+            "java.util.Optional"
+          ]
+        },
+        {
+          "name": "setBindHost",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setBufferPoolIncrement",
+          "parameterTypes": [
+            "io.dropwizard.util.DataSize"
+          ]
+        },
+        {
+          "name": "setHeaderCacheSize",
+          "parameterTypes": [
+            "io.dropwizard.util.DataSize"
+          ]
+        },
+        {
+          "name": "setIdleTimeout",
+          "parameterTypes": [
+            "io.dropwizard.util.Duration"
+          ]
+        },
+        {
+          "name": "setInheritChannel",
+          "parameterTypes": [
+            "boolean"
+          ]
+        },
+        {
+          "name": "setInputBufferSize",
+          "parameterTypes": [
+            "io.dropwizard.util.DataSize"
+          ]
+        },
+        {
+          "name": "setMaxBufferPoolSize",
+          "parameterTypes": [
+            "io.dropwizard.util.DataSize"
+          ]
+        },
+        {
+          "name": "setMaxRequestHeaderSize",
+          "parameterTypes": [
+            "io.dropwizard.util.DataSize"
+          ]
+        },
+        {
+          "name": "setMaxResponseHeaderSize",
+          "parameterTypes": [
+            "io.dropwizard.util.DataSize"
+          ]
+        },
+        {
+          "name": "setMinBufferPoolSize",
+          "parameterTypes": [
+            "io.dropwizard.util.DataSize"
+          ]
+        },
+        {
+          "name": "setMinRequestDataPerSecond",
+          "parameterTypes": [
+            "io.dropwizard.util.DataSize"
+          ]
+        },
+        {
+          "name": "setMinResponseDataPerSecond",
+          "parameterTypes": [
+            "io.dropwizard.util.DataSize"
+          ]
+        },
+        {
+          "name": "setOutputBufferSize",
+          "parameterTypes": [
+            "io.dropwizard.util.DataSize"
+          ]
+        },
+        {
+          "name": "setPort",
+          "parameterTypes": [
+            "int"
+          ]
+        },
+        {
+          "name": "setReuseAddress",
+          "parameterTypes": [
+            "boolean"
+          ]
+        },
+        {
+          "name": "setSelectorThreads",
+          "parameterTypes": [
+            "java.util.Optional"
+          ]
+        },
+        {
+          "name": "setUseDateHeader",
+          "parameterTypes": [
+            "boolean"
+          ]
+        },
+        {
+          "name": "setUseForwardedHeaders",
+          "parameterTypes": [
+            "boolean"
+          ]
+        },
+        {
+          "name": "setUseProxyProtocol",
+          "parameterTypes": [
+            "boolean"
+          ]
+        },
+        {
+          "name": "setUseServerHeader",
+          "parameterTypes": [
+            "boolean"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.jetty.HttpConnectorFactory$CookieComplianceDeserializer",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.jetty.HttpConnectorFactory$HttpComplianceDeserializer",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.jetty.HttpConnectorFactory$UriComplianceDeserializer",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.jetty.HttpsConnectorFactory",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        },
+        {
+          "name": "isValidKeyStorePassword",
+          "parameterTypes": []
+        },
+        {
+          "name": "isValidKeyStorePath",
+          "parameterTypes": []
+        },
+        {
+          "name": "setAllowRenegotiation",
+          "parameterTypes": [
+            "boolean"
+          ]
+        },
+        {
+          "name": "setCertAlias",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setCrlPath",
+          "parameterTypes": [
+            "java.io.File"
+          ]
+        },
+        {
+          "name": "setDisableSniHostCheck",
+          "parameterTypes": [
+            "boolean"
+          ]
+        },
+        {
+          "name": "setEnableCRLDP",
+          "parameterTypes": [
+            "java.lang.Boolean"
+          ]
+        },
+        {
+          "name": "setEnableOCSP",
+          "parameterTypes": [
+            "java.lang.Boolean"
+          ]
+        },
+        {
+          "name": "setEndpointIdentificationAlgorithm",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setExcludedCipherSuites",
+          "parameterTypes": [
+            "java.util.List"
+          ]
+        },
+        {
+          "name": "setExcludedProtocols",
+          "parameterTypes": [
+            "java.util.List"
+          ]
+        },
+        {
+          "name": "setJceProvider",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setKeyManagerPassword",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setKeyStorePassword",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setKeyStorePath",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setKeyStoreProvider",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setKeyStoreType",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setMaxCertPathLength",
+          "parameterTypes": [
+            "java.lang.Integer"
+          ]
+        },
+        {
+          "name": "setNeedClientAuth",
+          "parameterTypes": [
+            "java.lang.Boolean"
+          ]
+        },
+        {
+          "name": "setOcspResponderUrl",
+          "parameterTypes": [
+            "java.net.URI"
+          ]
+        },
+        {
+          "name": "setSupportedCipherSuites",
+          "parameterTypes": [
+            "java.util.List"
+          ]
+        },
+        {
+          "name": "setSupportedProtocols",
+          "parameterTypes": [
+            "java.util.List"
+          ]
+        },
+        {
+          "name": "setTrustStorePassword",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setTrustStorePath",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setTrustStoreProvider",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setTrustStoreType",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setValidateCerts",
+          "parameterTypes": [
+            "boolean"
+          ]
+        },
+        {
+          "name": "setValidatePeers",
+          "parameterTypes": [
+            "boolean"
+          ]
+        },
+        {
+          "name": "setWantClientAuth",
+          "parameterTypes": [
+            "java.lang.Boolean"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.jetty.ZipExceptionHandlingServletFilter",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.logging.common.AbstractAppenderFactory",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "setDiscardingThreshold",
+          "parameterTypes": [
+            "int"
+          ]
+        },
+        {
+          "name": "setFilterFactories",
+          "parameterTypes": [
+            "java.util.List"
+          ]
+        },
+        {
+          "name": "setIncludeCallerData",
+          "parameterTypes": [
+            "boolean"
+          ]
+        },
+        {
+          "name": "setLayout",
+          "parameterTypes": [
+            "io.dropwizard.logging.common.layout.DiscoverableLayoutFactory"
+          ]
+        },
+        {
+          "name": "setLogFormat",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setMessageRate",
+          "parameterTypes": [
+            "io.dropwizard.util.Duration"
+          ]
+        },
+        {
+          "name": "setNeverBlock",
+          "parameterTypes": [
+            "boolean"
+          ]
+        },
+        {
+          "name": "setQueueSize",
+          "parameterTypes": [
+            "int"
+          ]
+        },
+        {
+          "name": "setThreshold",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setTimeZone",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.logging.common.AbstractOutputStreamAppenderFactory",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "io.dropwizard.logging.common.AppenderFactory",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "io.dropwizard.logging.common.ConsoleAppenderFactory",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        },
+        {
+          "name": "setTarget",
+          "parameterTypes": [
+            "io.dropwizard.logging.common.ConsoleAppenderFactory$ConsoleStream"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.logging.common.ConsoleAppenderFactory$ConsoleStream",
+      "allPublicFields": true
+    },
+    {
+      "type": "io.dropwizard.logging.common.DefaultLoggingFactory",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        },
+        {
+          "name": "getAppenders",
+          "parameterTypes": []
+        },
+        {
+          "name": "getLevel",
+          "parameterTypes": []
+        },
+        {
+          "name": "getLoggers",
+          "parameterTypes": []
+        },
+        {
+          "name": "setAppenders",
+          "parameterTypes": [
+            "java.util.List"
+          ]
+        },
+        {
+          "name": "setLevel",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setLoggers",
+          "parameterTypes": [
+            "java.util.Map"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.logging.common.ExternalLoggingFactory"
+    },
+    {
+      "type": "io.dropwizard.logging.common.FileAppenderFactory",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        },
+        {
+          "name": "isMaxFileSizeSettingSpecified",
+          "parameterTypes": []
+        },
+        {
+          "name": "isTotalSizeCapValid",
+          "parameterTypes": []
+        },
+        {
+          "name": "isValidArchiveConfiguration",
+          "parameterTypes": []
+        },
+        {
+          "name": "isValidFileConfiguration",
+          "parameterTypes": []
+        },
+        {
+          "name": "isValidForMaxFileSizeSetting",
+          "parameterTypes": []
+        },
+        {
+          "name": "setArchive",
+          "parameterTypes": [
+            "boolean"
+          ]
+        },
+        {
+          "name": "setArchivedFileCount",
+          "parameterTypes": [
+            "int"
+          ]
+        },
+        {
+          "name": "setArchivedLogFilenamePattern",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setBufferSize",
+          "parameterTypes": [
+            "io.dropwizard.util.DataSize"
+          ]
+        },
+        {
+          "name": "setCurrentLogFilename",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setImmediateFlush",
+          "parameterTypes": [
+            "boolean"
+          ]
+        },
+        {
+          "name": "setMaxFileSize",
+          "parameterTypes": [
+            "io.dropwizard.util.DataSize"
+          ]
+        },
+        {
+          "name": "setTotalSizeCap",
+          "parameterTypes": [
+            "io.dropwizard.util.DataSize"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.logging.common.LoggerConfiguration",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        },
+        {
+          "name": "setAdditive",
+          "parameterTypes": [
+            "boolean"
+          ]
+        },
+        {
+          "name": "setAppenders",
+          "parameterTypes": [
+            "java.util.List"
+          ]
+        },
+        {
+          "name": "setLevel",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.logging.common.LoggingFactory",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "io.dropwizard.logging.common.PrefixedRootCauseFirstThrowableProxyConverter",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.logging.common.SyslogAppenderFactory"
+    },
+    {
+      "type": "io.dropwizard.logging.common.TcpSocketAppenderFactory"
+    },
+    {
+      "type": "io.dropwizard.logging.common.TlsSocketAppenderFactory"
+    },
+    {
+      "type": "io.dropwizard.logging.common.UdpSocketAppenderFactory"
+    },
+    {
+      "type": "io.dropwizard.logging.common.filter.FilterFactory"
+    },
+    {
+      "type": "io.dropwizard.logging.common.layout.DiscoverableLayoutFactory"
+    },
+    {
+      "type": "io.dropwizard.metrics.common.BaseReporterFactory",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "setDurationUnit",
+          "parameterTypes": [
+            "java.util.concurrent.TimeUnit"
+          ]
+        },
+        {
+          "name": "setExcludes",
+          "parameterTypes": [
+            "java.util.Set"
+          ]
+        },
+        {
+          "name": "setExcludesAttributes",
+          "parameterTypes": [
+            "java.util.EnumSet"
+          ]
+        },
+        {
+          "name": "setFrequency",
+          "parameterTypes": [
+            "java.util.Optional"
+          ]
+        },
+        {
+          "name": "setIncludes",
+          "parameterTypes": [
+            "java.util.Set"
+          ]
+        },
+        {
+          "name": "setIncludesAttributes",
+          "parameterTypes": [
+            "java.util.EnumSet"
+          ]
+        },
+        {
+          "name": "setRateUnit",
+          "parameterTypes": [
+            "java.util.concurrent.TimeUnit"
+          ]
+        },
+        {
+          "name": "setUseRegexFilters",
+          "parameterTypes": [
+            "boolean"
+          ]
+        },
+        {
+          "name": "setUseSubstringMatching",
+          "parameterTypes": [
+            "boolean"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.metrics.common.ConsoleReporterFactory"
+    },
+    {
+      "type": "io.dropwizard.metrics.common.CsvReporterFactory"
+    },
+    {
+      "type": "io.dropwizard.metrics.common.MetricsFactory",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        },
+        {
+          "name": "getFrequency",
+          "parameterTypes": []
+        },
+        {
+          "name": "getReporters",
+          "parameterTypes": []
+        },
+        {
+          "name": "isReportOnStop",
+          "parameterTypes": []
+        },
+        {
+          "name": "setFrequency",
+          "parameterTypes": [
+            "io.dropwizard.util.Duration"
+          ]
+        },
+        {
+          "name": "setReportOnStop",
+          "parameterTypes": [
+            "boolean"
+          ]
+        },
+        {
+          "name": "setReporters",
+          "parameterTypes": [
+            "java.util.List"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.metrics.common.ReporterFactory",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "getFrequency",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.metrics.common.Slf4jReporterFactory"
+    },
+    {
+      "type": "io.dropwizard.metrics.graphite.GraphiteReporterFactory",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        },
+        {
+          "name": "setHost",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setPort",
+          "parameterTypes": [
+            "int"
+          ]
+        },
+        {
+          "name": "setPrefix",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setTransport",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.request.logging.ExternalRequestLogFactory"
+    },
+    {
+      "type": "io.dropwizard.request.logging.LogbackAccessRequestLogFactory",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "getAppenders",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.request.logging.RequestLogFactory"
+    },
+    {
+      "type": "io.dropwizard.request.logging.filter.UriFilterFactory"
+    },
+    {
+      "type": "io.dropwizard.request.logging.old.LogbackClassicRequestLogFactory"
+    },
+    {
+      "type": "io.dropwizard.servlets.ThreadNameFilter",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.servlets.tasks.GarbageCollectionTask"
+    },
+    {
+      "type": "io.dropwizard.servlets.tasks.LogConfigurationTask"
+    },
+    {
+      "type": "io.dropwizard.servlets.tasks.TaskConfiguration",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        },
+        {
+          "name": "isPrintStackTraceOnError",
+          "parameterTypes": []
+        },
+        {
+          "name": "setPrintStackTraceOnError",
+          "parameterTypes": [
+            "boolean"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.util.DataSize",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "parse",
+          "parameterTypes": [
+            "java.lang.CharSequence"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.util.DataSizeUnit",
+      "allPublicFields": true
+    },
+    {
+      "type": "io.dropwizard.util.Duration",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "parse",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.validation.MaxDuration",
+      "methods": [
+        {
+          "name": "groups",
+          "parameterTypes": []
+        },
+        {
+          "name": "inclusive",
+          "parameterTypes": []
+        },
+        {
+          "name": "message",
+          "parameterTypes": []
+        },
+        {
+          "name": "payload",
+          "parameterTypes": []
+        },
+        {
+          "name": "unit",
+          "parameterTypes": []
+        },
+        {
+          "name": "value",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.validation.MaxDurationValidator",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.validation.MethodValidator",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.validation.MinDataSize",
+      "methods": [
+        {
+          "name": "groups",
+          "parameterTypes": []
+        },
+        {
+          "name": "message",
+          "parameterTypes": []
+        },
+        {
+          "name": "payload",
+          "parameterTypes": []
+        },
+        {
+          "name": "unit",
+          "parameterTypes": []
+        },
+        {
+          "name": "value",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.validation.MinDataSizeValidator",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.validation.MinDuration",
+      "methods": [
+        {
+          "name": "groups",
+          "parameterTypes": []
+        },
+        {
+          "name": "inclusive",
+          "parameterTypes": []
+        },
+        {
+          "name": "message",
+          "parameterTypes": []
+        },
+        {
+          "name": "payload",
+          "parameterTypes": []
+        },
+        {
+          "name": "unit",
+          "parameterTypes": []
+        },
+        {
+          "name": "value",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.validation.MinDurationValidator",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.validation.OneOf",
+      "methods": [
+        {
+          "name": "groups",
+          "parameterTypes": []
+        },
+        {
+          "name": "ignoreCase",
+          "parameterTypes": []
+        },
+        {
+          "name": "ignoreWhitespace",
+          "parameterTypes": []
+        },
+        {
+          "name": "message",
+          "parameterTypes": []
+        },
+        {
+          "name": "payload",
+          "parameterTypes": []
+        },
+        {
+          "name": "value",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.validation.OneOfValidator",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.validation.PortRange",
+      "methods": [
+        {
+          "name": "groups",
+          "parameterTypes": []
+        },
+        {
+          "name": "max",
+          "parameterTypes": []
+        },
+        {
+          "name": "message",
+          "parameterTypes": []
+        },
+        {
+          "name": "min",
+          "parameterTypes": []
+        },
+        {
+          "name": "payload",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.validation.PortRangeValidator",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.validation.ValidationMethod",
+      "methods": [
+        {
+          "name": "groups",
+          "parameterTypes": []
+        },
+        {
+          "name": "message",
+          "parameterTypes": []
+        },
+        {
+          "name": "payload",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "io.dropwizard.views.common.ViewMessageBodyWriter",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "io.dropwizard.views.freemarker.FreemarkerViewRenderer"
+    },
+    {
+      "type": "io.dropwizard.views.freemarker.FreemarkerViewRenderer$TemplateLoader"
+    },
+    {
+      "type": "io.dropwizard.views.mustache.MustacheViewRenderer"
+    },
+    {
+      "type": "io.dropwizard.views.mustache.MustacheViewRenderer$1"
+    },
+    {
+      "type": "jakarta.activation.DataSource"
+    },
+    {
+      "type": "jakarta.enterprise.inject.spi.BeanManager"
+    },
+    {
+      "type": "jakarta.inject.Inject"
+    },
+    {
+      "type": "jakarta.inject.Named",
+      "methods": [
+        {
+          "name": "value",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "jakarta.inject.Singleton"
+    },
+    {
+      "type": "jakarta.persistence.Column"
+    },
+    {
+      "type": "jakarta.persistence.Entity"
+    },
+    {
+      "type": "jakarta.persistence.GeneratedValue"
+    },
+    {
+      "type": "jakarta.persistence.Id"
+    },
+    {
+      "type": "jakarta.persistence.NamedQuery"
+    },
+    {
+      "type": "jakarta.persistence.Persistence",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        },
+        {
+          "name": "getPersistenceUtil",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "jakarta.persistence.Table"
+    },
+    {
+      "type": "jakarta.validation.ConstraintViolation"
+    },
+    {
+      "type": "jakarta.validation.Valid"
+    },
+    {
+      "type": "jakarta.validation.constraints.Max",
+      "methods": [
+        {
+          "name": "groups",
+          "parameterTypes": []
+        },
+        {
+          "name": "message",
+          "parameterTypes": []
+        },
+        {
+          "name": "payload",
+          "parameterTypes": []
+        },
+        {
+          "name": "value",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "jakarta.validation.constraints.Min",
+      "methods": [
+        {
+          "name": "groups",
+          "parameterTypes": []
+        },
+        {
+          "name": "message",
+          "parameterTypes": []
+        },
+        {
+          "name": "payload",
+          "parameterTypes": []
+        },
+        {
+          "name": "value",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "jakarta.validation.constraints.NotEmpty",
+      "methods": [
+        {
+          "name": "groups",
+          "parameterTypes": []
+        },
+        {
+          "name": "message",
+          "parameterTypes": []
+        },
+        {
+          "name": "payload",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "jakarta.validation.constraints.NotNull",
+      "methods": [
+        {
+          "name": "groups",
+          "parameterTypes": []
+        },
+        {
+          "name": "message",
+          "parameterTypes": []
+        },
+        {
+          "name": "payload",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "jakarta.ws.rs.GET"
+    },
+    {
+      "type": "jakarta.ws.rs.POST"
+    },
+    {
+      "type": "jakarta.ws.rs.Path"
+    },
+    {
+      "type": "jakarta.ws.rs.Produces"
+    },
+    {
+      "type": "jakarta.ws.rs.container.DynamicFeature"
+    },
+    {
+      "type": "jakarta.ws.rs.core.Application"
+    },
+    {
+      "type": "jakarta.ws.rs.core.Feature"
+    },
+    {
+      "type": "jakarta.ws.rs.ext.MessageBodyReader"
+    },
+    {
+      "type": "jakarta.ws.rs.ext.MessageBodyWriter"
+    },
+    {
+      "type": "jakarta.ws.rs.ext.ParamConverterProvider"
+    },
+    {
+      "type": "java.awt.image.RenderedImage"
+    },
+    {
+      "type": "java.io.InputStream"
+    },
+    {
+      "type": "java.io.Reader"
+    },
+    {
+      "type": "java.io.Serializable",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "java.lang.Boolean",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "TYPE"
+        }
+      ],
+      "methods": [
+        {
+          "name": "getBoolean",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "java.lang.Byte",
+      "fields": [
+        {
+          "name": "TYPE"
+        }
+      ]
+    },
+    {
+      "type": "java.lang.Character",
+      "fields": [
+        {
+          "name": "TYPE"
+        }
+      ]
+    },
+    {
+      "type": "java.lang.Class",
+      "methods": [
+        {
+          "name": "getModule",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "java.lang.ClassLoader",
+      "fields": [
+        {
+          "name": "classLoaderValueMap"
+        }
+      ]
+    },
+    {
+      "type": "java.lang.Class[]"
+    },
+    {
+      "type": "java.lang.Cloneable",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "java.lang.Comparable",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "java.lang.Deprecated"
+    },
+    {
+      "type": "java.lang.Double",
+      "fields": [
+        {
+          "name": "TYPE"
+        }
+      ]
+    },
+    {
+      "type": "java.lang.Enum",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "java.lang.Float",
+      "fields": [
+        {
+          "name": "TYPE"
+        }
+      ]
+    },
+    {
+      "type": "java.lang.Integer",
+      "fields": [
+        {
+          "name": "TYPE"
+        }
+      ]
+    },
+    {
+      "type": "java.lang.Iterable",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "java.lang.Long",
+      "fields": [
+        {
+          "name": "TYPE"
+        }
+      ]
+    },
+    {
+      "type": "java.lang.Module",
+      "methods": [
+        {
+          "name": "isNamed",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "java.lang.Object",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "java.lang.Object[]"
+    },
+    {
+      "type": "java.lang.Record"
+    },
+    {
+      "type": "java.lang.Short",
+      "fields": [
+        {
+          "name": "TYPE"
+        }
+      ]
+    },
+    {
+      "type": "java.lang.StackTraceElement"
+    },
+    {
+      "type": "java.lang.String",
+      "fields": [
+        {
+          "name": "TYPE"
+        }
+      ]
+    },
+    {
+      "type": "java.lang.StringBuilder"
+    },
+    {
+      "type": "java.lang.String[]"
+    },
+    {
+      "type": "java.lang.System",
+      "methods": [
+        {
+          "name": "getSecurityManager",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "java.lang.Thread",
+      "methods": [
+        {
+          "name": "ofVirtual",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "java.lang.Thread$Builder",
+      "methods": [
+        {
+          "name": "factory",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "java.lang.Void",
+      "fields": [
+        {
+          "name": "TYPE"
+        }
+      ]
+    },
+    {
+      "type": "java.lang.constant.Constable",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "java.lang.invoke.CallSite"
+    },
+    {
+      "type": "java.lang.invoke.MethodHandles",
+      "methods": [
+        {
+          "name": "privateLookupIn",
+          "parameterTypes": [
+            "java.lang.Class",
+            "java.lang.invoke.MethodHandles$Lookup"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "java.lang.invoke.MethodHandles$Lookup",
+      "methods": [
+        {
+          "name": "defineClass",
+          "parameterTypes": [
+            "byte[]"
+          ]
+        },
+        {
+          "name": "hasFullPrivilegeAccess",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "java.lang.management.BufferPoolMXBean"
+    },
+    {
+      "type": "java.lang.management.ClassLoadingMXBean"
+    },
+    {
+      "type": "java.lang.management.CompilationMXBean"
+    },
+    {
+      "type": "java.lang.management.LockInfo"
+    },
+    {
+      "type": "java.lang.management.ManagementFactory",
+      "methods": [
+        {
+          "name": "getRuntimeMXBean",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "java.lang.management.MemoryMXBean"
+    },
+    {
+      "type": "java.lang.management.MemoryManagerMXBean"
+    },
+    {
+      "type": "java.lang.management.MemoryPoolMXBean"
+    },
+    {
+      "type": "java.lang.management.MemoryUsage"
+    },
+    {
+      "type": "java.lang.management.MonitorInfo"
+    },
+    {
+      "type": "java.lang.management.PlatformLoggingMXBean"
+    },
+    {
+      "type": "java.lang.management.RuntimeMXBean",
+      "methods": [
+        {
+          "name": "getUptime",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "java.lang.management.ThreadInfo"
+    },
+    {
+      "type": "java.lang.reflect.RecordComponent"
+    },
+    {
+      "type": "java.math.BigDecimal"
+    },
+    {
+      "type": "java.math.BigInteger"
+    },
+    {
+      "type": "java.net.URL"
+    },
+    {
+      "type": "java.security.AccessController",
+      "methods": [
+        {
+          "name": "doPrivileged",
+          "parameterTypes": [
+            "java.security.PrivilegedAction"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "java.security.AlgorithmParametersSpi"
+    },
+    {
+      "type": "java.security.KeyStoreSpi"
+    },
+    {
+      "type": "java.sql.Array"
+    },
+    {
+      "type": "java.sql.Blob"
+    },
+    {
+      "type": "java.sql.Clob"
+    },
+    {
+      "type": "java.sql.Connection",
+      "methods": [
+        {
+          "name": "clearWarnings",
+          "parameterTypes": []
+        },
+        {
+          "name": "commit",
+          "parameterTypes": []
+        },
+        {
+          "name": "getAutoCommit",
+          "parameterTypes": []
+        },
+        {
+          "name": "getMetaData",
+          "parameterTypes": []
+        },
+        {
+          "name": "getWarnings",
+          "parameterTypes": []
+        },
+        {
+          "name": "prepareStatement",
+          "parameterTypes": [
+            "java.lang.String",
+            "int"
+          ]
+        },
+        {
+          "name": "setAutoCommit",
+          "parameterTypes": [
+            "boolean"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "java.sql.Date"
+    },
+    {
+      "type": "java.sql.NClob"
+    },
+    {
+      "type": "java.sql.PreparedStatement",
+      "methods": [
+        {
+          "name": "executeUpdate",
+          "parameterTypes": []
+        },
+        {
+          "name": "setInt",
+          "parameterTypes": [
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "setString",
+          "parameterTypes": [
+            "int",
+            "java.lang.String"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "java.sql.Ref"
+    },
+    {
+      "type": "java.sql.ResultSet",
+      "methods": [
+        {
+          "name": "close",
+          "parameterTypes": []
+        },
+        {
+          "name": "getLong",
+          "parameterTypes": [
+            "int"
+          ]
+        },
+        {
+          "name": "getMetaData",
+          "parameterTypes": []
+        },
+        {
+          "name": "next",
+          "parameterTypes": []
+        },
+        {
+          "name": "wasNull",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "java.sql.RowId"
+    },
+    {
+      "type": "java.sql.SQLException",
+      "fields": [
+        {
+          "name": "next"
+        }
+      ]
+    },
+    {
+      "type": "java.sql.SQLType"
+    },
+    {
+      "type": "java.sql.SQLXML"
+    },
+    {
+      "type": "java.sql.Savepoint"
+    },
+    {
+      "type": "java.sql.ShardingKey"
+    },
+    {
+      "type": "java.sql.Statement",
+      "methods": [
+        {
+          "name": "close",
+          "parameterTypes": []
+        },
+        {
+          "name": "getGeneratedKeys",
+          "parameterTypes": []
+        },
+        {
+          "name": "getMaxRows",
+          "parameterTypes": []
+        },
+        {
+          "name": "getQueryTimeout",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "java.sql.Time"
+    },
+    {
+      "type": "java.sql.Timestamp"
+    },
+    {
+      "type": "java.sql.Types",
+      "allPublicFields": true
+    },
+    {
+      "type": "java.util.AbstractCollection",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "java.util.AbstractList",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "java.util.ArrayList",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "java.util.Arrays",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "asList",
+          "parameterTypes": [
+            "java.lang.Object[]"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "java.util.Calendar"
+    },
+    {
+      "type": "java.util.Collection",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "java.util.Date"
+    },
+    {
+      "type": "java.util.HashSet",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "java.util.List",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "java.util.Map"
+    },
+    {
+      "type": "java.util.Optional",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "java.util.OptionalLong"
+    },
+    {
+      "type": "java.util.Properties"
+    },
+    {
+      "type": "java.util.RandomAccess",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "java.util.SequencedCollection",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "java.util.concurrent.Executor"
+    },
+    {
+      "type": "java.util.concurrent.Executors",
+      "methods": [
+        {
+          "name": "newThreadPerTaskExecutor",
+          "parameterTypes": [
+            "java.util.concurrent.ThreadFactory"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "java.util.concurrent.Flow$Subscriber"
+    },
+    {
+      "type": "java.util.concurrent.TimeUnit",
+      "allPublicFields": true
+    },
+    {
+      "type": "java.util.function.Function"
+    },
+    {
+      "type": "java.util.function.Function[]"
+    },
+    {
+      "type": "java.util.logging.LogManager",
+      "methods": [
+        {
+          "name": "getLoggingMXBean",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "java.util.logging.LoggingMXBean"
+    },
+    {
+      "type": "java.util.logging.SimpleFormatter",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "java.util.zip.DeflaterInputStream"
+    },
+    {
+      "type": "javafx.beans.value.ObservableValue"
+    },
+    {
+      "type": "javassist.util.proxy.MethodHandler"
+    },
+    {
+      "type": "javax.management.MBeanOperationInfo"
+    },
+    {
+      "type": "javax.management.MBeanServerBuilder",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "javax.management.ObjectName"
+    },
+    {
+      "type": "javax.management.StandardEmitterMBean"
+    },
+    {
+      "type": "javax.management.openmbean.CompositeData"
+    },
+    {
+      "type": "javax.management.openmbean.CompositeData[]"
+    },
+    {
+      "type": "javax.management.openmbean.OpenMBeanOperationInfoSupport"
+    },
+    {
+      "type": "javax.management.openmbean.TabularData"
+    },
+    {
+      "type": "javax.money.MonetaryAmount"
+    },
+    {
+      "type": "javax.security.auth.Subject",
+      "methods": [
+        {
+          "name": "callAs",
+          "parameterTypes": [
+            "javax.security.auth.Subject",
+            "java.util.concurrent.Callable"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "javax.sql.ConnectionEventListener"
+    },
+    {
+      "type": "javax.sql.PooledConnection"
+    },
+    {
+      "type": "javax.sql.StatementEventListener"
+    },
+    {
+      "type": "javax.xml.transform.Source"
+    },
+    {
+      "type": "javax.xml.transform.dom.DOMSource"
+    },
+    {
+      "type": "javax.xml.transform.sax.SAXSource"
+    },
+    {
+      "type": "javax.xml.transform.stream.StreamSource"
+    },
+    {
+      "type": "jdk.internal.misc.Unsafe"
+    },
+    {
+      "type": "jdk.management.VirtualThreadSchedulerMXBean"
+    },
+    {
+      "type": "jdk.management.jfr.ConfigurationInfo"
+    },
+    {
+      "type": "jdk.management.jfr.EventTypeInfo"
+    },
+    {
+      "type": "jdk.management.jfr.FlightRecorderMXBean"
+    },
+    {
+      "type": "jdk.management.jfr.FlightRecorderMXBeanImpl"
+    },
+    {
+      "type": "jdk.management.jfr.RecordingInfo"
+    },
+    {
+      "type": "jdk.management.jfr.SettingDescriptorInfo"
+    },
+    {
+      "type": "long[]"
+    },
+    {
+      "type": "org.apache.log4j.FileAppender"
+    },
+    {
+      "type": "org.apache.log4j.Logger"
+    },
+    {
+      "type": "org.apache.logging.log4j.Logger"
+    },
+    {
+      "type": "org.apache.tomcat.jdbc.pool.PoolProperties",
+      "methods": [
+        {
+          "name": "getAbandonWhenPercentageFull",
+          "parameterTypes": []
+        },
+        {
+          "name": "getCommitOnReturn",
+          "parameterTypes": []
+        },
+        {
+          "name": "getConnectionProperties",
+          "parameterTypes": []
+        },
+        {
+          "name": "getDataSource",
+          "parameterTypes": []
+        },
+        {
+          "name": "getDataSourceJNDI",
+          "parameterTypes": []
+        },
+        {
+          "name": "getDefaultAutoCommit",
+          "parameterTypes": []
+        },
+        {
+          "name": "getDefaultCatalog",
+          "parameterTypes": []
+        },
+        {
+          "name": "getDefaultReadOnly",
+          "parameterTypes": []
+        },
+        {
+          "name": "getDefaultTransactionIsolation",
+          "parameterTypes": []
+        },
+        {
+          "name": "getDriverClassName",
+          "parameterTypes": []
+        },
+        {
+          "name": "getInitSQL",
+          "parameterTypes": []
+        },
+        {
+          "name": "getInitialSize",
+          "parameterTypes": []
+        },
+        {
+          "name": "getJdbcInterceptors",
+          "parameterTypes": []
+        },
+        {
+          "name": "getLogValidationErrors",
+          "parameterTypes": []
+        },
+        {
+          "name": "getMaxActive",
+          "parameterTypes": []
+        },
+        {
+          "name": "getMaxAge",
+          "parameterTypes": []
+        },
+        {
+          "name": "getMaxIdle",
+          "parameterTypes": []
+        },
+        {
+          "name": "getMaxWait",
+          "parameterTypes": []
+        },
+        {
+          "name": "getMinEvictableIdleTimeMillis",
+          "parameterTypes": []
+        },
+        {
+          "name": "getMinIdle",
+          "parameterTypes": []
+        },
+        {
+          "name": "getNumTestsPerEvictionRun",
+          "parameterTypes": []
+        },
+        {
+          "name": "getPropagateInterruptState",
+          "parameterTypes": []
+        },
+        {
+          "name": "getRemoveAbandonedTimeout",
+          "parameterTypes": []
+        },
+        {
+          "name": "getRollbackOnReturn",
+          "parameterTypes": []
+        },
+        {
+          "name": "getSuspectTimeout",
+          "parameterTypes": []
+        },
+        {
+          "name": "getTimeBetweenEvictionRunsMillis",
+          "parameterTypes": []
+        },
+        {
+          "name": "getUrl",
+          "parameterTypes": []
+        },
+        {
+          "name": "getUseDisposableConnectionFacade",
+          "parameterTypes": []
+        },
+        {
+          "name": "getUseLock",
+          "parameterTypes": []
+        },
+        {
+          "name": "getUseStatementFacade",
+          "parameterTypes": []
+        },
+        {
+          "name": "getUsername",
+          "parameterTypes": []
+        },
+        {
+          "name": "getValidationInterval",
+          "parameterTypes": []
+        },
+        {
+          "name": "getValidationQuery",
+          "parameterTypes": []
+        },
+        {
+          "name": "getValidationQueryTimeout",
+          "parameterTypes": []
+        },
+        {
+          "name": "getValidatorClassName",
+          "parameterTypes": []
+        },
+        {
+          "name": "isAccessToUnderlyingConnectionAllowed",
+          "parameterTypes": []
+        },
+        {
+          "name": "isAlternateUsernameAllowed",
+          "parameterTypes": []
+        },
+        {
+          "name": "isFairQueue",
+          "parameterTypes": []
+        },
+        {
+          "name": "isIgnoreExceptionOnPreLoad",
+          "parameterTypes": []
+        },
+        {
+          "name": "isJmxEnabled",
+          "parameterTypes": []
+        },
+        {
+          "name": "isLogAbandoned",
+          "parameterTypes": []
+        },
+        {
+          "name": "isRemoveAbandoned",
+          "parameterTypes": []
+        },
+        {
+          "name": "isTestOnBorrow",
+          "parameterTypes": []
+        },
+        {
+          "name": "isTestOnConnect",
+          "parameterTypes": []
+        },
+        {
+          "name": "isTestOnReturn",
+          "parameterTypes": []
+        },
+        {
+          "name": "isTestWhileIdle",
+          "parameterTypes": []
+        },
+        {
+          "name": "isUseEquals",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.eclipse.jetty.http.Http10FieldPreEncoder"
+    },
+    {
+      "type": "org.eclipse.jetty.http.Http11FieldPreEncoder"
+    },
+    {
+      "type": "org.eclipse.jetty.http.pathmap.PathSpecSet",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.eclipse.jetty.http2.hpack.HpackFieldPreEncoder"
+    },
+    {
+      "type": "org.eclipse.jetty.util.AsciiLowerCaseSet",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.eclipse.jetty.util.TypeUtil",
+      "methods": [
+        {
+          "name": "getClassLoaderLocation",
+          "parameterTypes": [
+            "java.lang.Class"
+          ]
+        },
+        {
+          "name": "getCodeSourceLocation",
+          "parameterTypes": [
+            "java.lang.Class"
+          ]
+        },
+        {
+          "name": "getModuleLocation",
+          "parameterTypes": [
+            "java.lang.Class"
+          ]
+        },
+        {
+          "name": "getSystemClassLoaderLocation",
+          "parameterTypes": [
+            "java.lang.Class"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.eclipse.jetty.util.Utf8StringBuilder",
+      "methods": [
+        {
+          "name": "errorActionIgnore",
+          "parameterTypes": []
+        },
+        {
+          "name": "errorActionReplace",
+          "parameterTypes": []
+        },
+        {
+          "name": "errorActionReport",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.eclipse.jetty.util.ssl.SslContextFactory$Server"
+    },
+    {
+      "type": "org.glassfish.hk2.internal.PerThreadContext",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "org.glassfish.jersey.inject.hk2.ContextInjectionResolverImpl",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.glassfish.jersey.inject.hk2.Hk2InjectionManagerFactory",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.glassfish.jersey.inject.hk2.Hk2Registrables",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.glassfish.jersey.inject.hk2.Hk2RequestScope",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.glassfish.jersey.inject.hk2.InstanceSupplierFactoryBridge"
+    },
+    {
+      "type": "org.glassfish.jersey.inject.hk2.JerseyErrorService",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.glassfish.jersey.inject.hk2.RequestContext",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "org.glassfish.jersey.process.internal.RequestScope"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.glassfish.jersey.inject.hk2.SupplierFactoryBridge"
+    },
+    {
+      "type": "org.glassfish.jersey.internal.JaxrsProviders",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "jakarta.inject.Provider",
+            "jakarta.inject.Provider",
+            "jakarta.inject.Provider"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.glassfish.jersey.internal.RuntimeDelegateImpl"
+    },
+    {
+      "type": "org.glassfish.jersey.internal.inject.AbstractBinder"
+    },
+    {
+      "type": "org.glassfish.jersey.internal.inject.Binder"
+    },
+    {
+      "type": "org.glassfish.jersey.internal.inject.Custom"
+    },
+    {
+      "type": "org.glassfish.jersey.internal.inject.ParamConverters$AggregatedProvider",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "org.glassfish.jersey.internal.inject.InjectionManager",
+            "jakarta.ws.rs.core.Configuration"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.glassfish.jersey.logging.LoggingFeatureAutoDiscoverable",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.glassfish.jersey.message.internal.AbstractFormProvider",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "org.glassfish.jersey.message.internal.AbstractMessageReaderWriterProvider",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "org.glassfish.jersey.message.internal.BasicTypesMessageProvider",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.glassfish.jersey.message.internal.ByteArrayProvider",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.glassfish.jersey.message.internal.DataSourceProvider",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.glassfish.jersey.message.internal.EnumMessageProvider",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.glassfish.jersey.message.internal.FileProvider",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.glassfish.jersey.message.internal.FormMultivaluedMapProvider",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.glassfish.jersey.message.internal.FormProvider",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.glassfish.jersey.message.internal.InputStreamProvider",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.glassfish.jersey.message.internal.PathProvider",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.glassfish.jersey.message.internal.ReaderProvider",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.glassfish.jersey.message.internal.RenderedImageProvider",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.glassfish.jersey.message.internal.SourceProvider$DomSourceReader",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "jakarta.inject.Provider"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.glassfish.jersey.message.internal.SourceProvider$SaxSourceReader",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "jakarta.inject.Provider"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.glassfish.jersey.message.internal.SourceProvider$SourceWriter",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "jakarta.inject.Provider",
+            "jakarta.inject.Provider"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.glassfish.jersey.message.internal.SourceProvider$StreamSourceReader",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.glassfish.jersey.message.internal.StreamingOutputProvider",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.glassfish.jersey.message.internal.StringMessageProvider",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.glassfish.jersey.process.Inflector"
+    },
+    {
+      "type": "org.glassfish.jersey.process.internal.RequestScope",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "org.glassfish.jersey.server.BackgroundScheduler"
+    },
+    {
+      "type": "org.glassfish.jersey.server.ChunkedResponseWriter",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.glassfish.jersey.server.ManagedAsyncExecutor"
+    },
+    {
+      "type": "org.glassfish.jersey.server.ResourceConfig"
+    },
+    {
+      "type": "org.glassfish.jersey.server.ServerExecutorProvidersConfigurator$DefaultBackgroundSchedulerProvider"
+    },
+    {
+      "type": "org.glassfish.jersey.server.ServerExecutorProvidersConfigurator$DefaultManagedAsyncExecutorProvider"
+    },
+    {
+      "type": "org.glassfish.jersey.server.filter.RolesAllowedDynamicFeature",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.glassfish.jersey.server.filter.internal.ServerFiltersAutoDiscoverable",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.glassfish.jersey.server.internal.JsonWithPaddingInterceptor",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.glassfish.jersey.server.internal.MappableExceptionWrapperInterceptor",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.glassfish.jersey.server.internal.inject.AbstractValueParamProvider",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "org.glassfish.jersey.server.internal.inject.FormParamValueParamProvider$MultipartFormParamValueProvider$FormParamHolder",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "org.glassfish.jersey.server.internal.monitoring.MonitoringAutodiscoverable",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.glassfish.jersey.server.internal.monitoring.MonitoringContainerListener",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.glassfish.jersey.server.internal.process.RequestProcessingContextReference",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.glassfish.jersey.server.model.ModelProcessor"
+    },
+    {
+      "type": "org.glassfish.jersey.server.model.Parameter$ServerParameterService",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.glassfish.jersey.server.monitoring.ApplicationEventListener"
+    },
+    {
+      "type": "org.glassfish.jersey.server.validation.ValidationFeature",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.glassfish.jersey.server.validation.internal.InjectingConstraintValidatorFactory",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.glassfish.jersey.server.validation.internal.ValidationAutoDiscoverable",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.glassfish.jersey.server.validation.internal.ValidationBinder",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "org.glassfish.jersey.server.validation.internal.ValidationErrorMessageBodyWriter",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.glassfish.jersey.server.wadl.WadlFeature",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.glassfish.jersey.server.wadl.internal.WadlAutoDiscoverable",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.glassfish.jersey.server.wadl.processor.OptionsMethodProcessor$GenericOptionsInflector"
+    },
+    {
+      "type": "org.glassfish.jersey.server.wadl.processor.OptionsMethodProcessor$PlainTextOptionsInflector"
+    },
+    {
+      "type": "org.glassfish.jersey.servlet.WebComponent$WebComponentBinder",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "org.glassfish.jersey.servlet.async.AsyncContextDelegateProviderImpl",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.glassfish.jersey.servlet.init.FilterUrlMappingsProviderImpl"
+    },
+    {
+      "type": "org.glassfish.jersey.servlet.internal.spi.ServletContainerProvider[]"
+    },
+    {
+      "type": "org.glassfish.jersey.spi.AbstractThreadPoolProvider"
+    },
+    {
+      "type": "org.glassfish.jersey.spi.ScheduledThreadPoolExecutorProvider",
+      "methods": [
+        {
+          "name": "preDestroy",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.glassfish.jersey.spi.ThreadPoolExecutorProvider",
+      "methods": [
+        {
+          "name": "preDestroy",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.glassfish.jersey.spidiscovery.internal.MetaInfServicesAutoDiscoverable",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.glassfish.jersey.spidiscovery.internal.MetaInfServicesAutoDiscoverable$1",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "org.h2.Driver",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.h2.jdbc.JdbcConnection"
+    },
+    {
+      "type": "org.h2.mvstore.MVStore$TxCounter",
+      "fields": [
+        {
+          "name": "counter"
+        }
+      ]
+    },
+    {
+      "type": "org.h2.mvstore.Page",
+      "fields": [
+        {
+          "name": "pos"
+        }
+      ]
+    },
+    {
+      "type": "org.h2.mvstore.db.LobStorageMap$BlobMeta$Type",
+      "fields": [
+        {
+          "name": "INSTANCE"
+        }
+      ]
+    },
+    {
+      "type": "org.h2.mvstore.db.LobStorageMap$BlobReference$Type",
+      "fields": [
+        {
+          "name": "INSTANCE"
+        }
+      ]
+    },
+    {
+      "type": "org.h2.mvstore.db.NullValueDataType",
+      "fields": [
+        {
+          "name": "INSTANCE"
+        }
+      ]
+    },
+    {
+      "type": "org.h2.mvstore.db.RowDataType$Factory",
+      "fields": [
+        {
+          "name": "INSTANCE"
+        }
+      ],
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.h2.mvstore.tx.VersionedValueType$Factory",
+      "fields": [
+        {
+          "name": "INSTANCE"
+        }
+      ],
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.h2.mvstore.type.ByteArrayDataType",
+      "fields": [
+        {
+          "name": "INSTANCE"
+        }
+      ]
+    },
+    {
+      "type": "org.h2.mvstore.type.LongDataType",
+      "fields": [
+        {
+          "name": "INSTANCE"
+        }
+      ]
+    },
+    {
+      "type": "org.h2.store.fs.async.FilePathAsync",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.h2.store.fs.mem.FilePathMem",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.h2.store.fs.mem.FilePathMemLZF",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.h2.store.fs.niomapped.FilePathNioMapped",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.h2.store.fs.niomem.FilePathNioMem",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.h2.store.fs.niomem.FilePathNioMemLZF",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.h2.store.fs.retry.FilePathRetryOnInterrupt",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.h2.store.fs.split.FilePathSplit",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.h2.store.fs.zip.FilePathZip",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.hibernate.boot.beanvalidation.TypeSafeActivator",
+      "methods": [
+        {
+          "name": "activate",
+          "parameterTypes": [
+            "org.hibernate.boot.beanvalidation.ActivationContext"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.hibernate.boot.cfgxml.internal.CfgXmlAccessServiceImpl"
+    },
+    {
+      "type": "org.hibernate.boot.internal.DefaultSessionFactoryBuilderService"
+    },
+    {
+      "type": "org.hibernate.boot.model.naming.ImplicitNamingStrategyJpaCompliantImpl",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.hibernate.boot.model.relational.ColumnOrderingStrategyStandard",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.hibernate.bytecode.internal.javassist.FieldHandler"
+    },
+    {
+      "type": "org.hibernate.bytecode.internal.none.BytecodeProviderImpl"
+    },
+    {
+      "type": "org.hibernate.cache.internal.DisabledCaching"
+    },
+    {
+      "type": "org.hibernate.cache.internal.NoCachingRegionFactory"
+    },
+    {
+      "type": "org.hibernate.dialect.DialectLogging_$logger",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "org.jboss.logging.Logger"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.hibernate.dialect.DialectLogging_$logger_en"
+    },
+    {
+      "type": "org.hibernate.dialect.DialectLogging_$logger_en_US"
+    },
+    {
+      "type": "org.hibernate.engine.config.internal.ConfigurationServiceImpl"
+    },
+    {
+      "type": "org.hibernate.engine.jdbc.batch.JdbcBatchLogging_$logger",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "org.jboss.logging.Logger"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.hibernate.engine.jdbc.batch.JdbcBatchLogging_$logger_en"
+    },
+    {
+      "type": "org.hibernate.engine.jdbc.batch.JdbcBatchLogging_$logger_en_US"
+    },
+    {
+      "type": "org.hibernate.engine.jdbc.batch.internal.BatchBuilderImpl"
+    },
+    {
+      "type": "org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl"
+    },
+    {
+      "type": "org.hibernate.engine.jdbc.dialect.internal.DialectResolverSet"
+    },
+    {
+      "type": "org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentImpl"
+    },
+    {
+      "type": "org.hibernate.engine.jdbc.internal.JdbcServicesImpl"
+    },
+    {
+      "type": "org.hibernate.engine.jdbc.mutation.internal.StandardMutationExecutorService"
+    },
+    {
+      "type": "org.hibernate.engine.jdbc.spi.SqlStatementLogger"
+    },
+    {
+      "type": "org.hibernate.engine.jndi.internal.JndiServiceImpl"
+    },
+    {
+      "type": "org.hibernate.engine.query.internal.NativeQueryInterpreterStandardImpl"
+    },
+    {
+      "type": "org.hibernate.event.spi.AutoFlushEventListener[]"
+    },
+    {
+      "type": "org.hibernate.event.spi.DeleteEventListener[]"
+    },
+    {
+      "type": "org.hibernate.event.spi.DirtyCheckEventListener[]"
+    },
+    {
+      "type": "org.hibernate.event.spi.EventType",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "org.hibernate.event.spi.EvictEventListener[]"
+    },
+    {
+      "type": "org.hibernate.event.spi.FlushEntityEventListener[]"
+    },
+    {
+      "type": "org.hibernate.event.spi.FlushEventListener[]"
+    },
+    {
+      "type": "org.hibernate.event.spi.InitializeCollectionEventListener[]"
+    },
+    {
+      "type": "org.hibernate.event.spi.LoadEventListener[]"
+    },
+    {
+      "type": "org.hibernate.event.spi.LockEventListener[]"
+    },
+    {
+      "type": "org.hibernate.event.spi.MergeEventListener[]"
+    },
+    {
+      "type": "org.hibernate.event.spi.PersistEventListener[]"
+    },
+    {
+      "type": "org.hibernate.event.spi.PostDeleteEventListener[]"
+    },
+    {
+      "type": "org.hibernate.event.spi.PostInsertEventListener[]"
+    },
+    {
+      "type": "org.hibernate.event.spi.PostLoadEventListener[]"
+    },
+    {
+      "type": "org.hibernate.event.spi.PostUpdateEventListener[]"
+    },
+    {
+      "type": "org.hibernate.event.spi.PostUpsertEventListener[]"
+    },
+    {
+      "type": "org.hibernate.event.spi.PreCollectionUpdateEventListener[]"
+    },
+    {
+      "type": "org.hibernate.event.spi.PreDeleteEventListener[]"
+    },
+    {
+      "type": "org.hibernate.event.spi.PreInsertEventListener[]"
+    },
+    {
+      "type": "org.hibernate.event.spi.PreLoadEventListener[]"
+    },
+    {
+      "type": "org.hibernate.event.spi.PreUpdateEventListener[]"
+    },
+    {
+      "type": "org.hibernate.event.spi.PreUpsertEventListener[]"
+    },
+    {
+      "type": "org.hibernate.event.spi.RefreshEventListener[]"
+    },
+    {
+      "type": "org.hibernate.event.spi.ReplicateEventListener[]"
+    },
+    {
+      "type": "org.hibernate.event.spi.ResolveNaturalIdEventListener[]"
+    },
+    {
+      "type": "org.hibernate.event.spi.SaveOrUpdateEventListener[]"
+    },
+    {
+      "type": "org.hibernate.id.IdentityGenerator",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.hibernate.id.factory.internal.StandardIdentifierGeneratorFactory"
+    },
+    {
+      "type": "org.hibernate.internal.CoreMessageLogger_$logger",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "org.jboss.logging.Logger"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.hibernate.internal.CoreMessageLogger_$logger_en"
+    },
+    {
+      "type": "org.hibernate.internal.CoreMessageLogger_$logger_en_US"
+    },
+    {
+      "type": "org.hibernate.internal.EntityManagerMessageLogger_$logger",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "org.jboss.logging.Logger"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.hibernate.internal.EntityManagerMessageLogger_$logger_en"
+    },
+    {
+      "type": "org.hibernate.internal.EntityManagerMessageLogger_$logger_en_US"
+    },
+    {
+      "type": "org.hibernate.internal.log.ConnectionInfoLogger_$logger",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "org.jboss.logging.Logger"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.hibernate.internal.log.ConnectionInfoLogger_$logger_en"
+    },
+    {
+      "type": "org.hibernate.internal.log.ConnectionInfoLogger_$logger_en_US"
+    },
+    {
+      "type": "org.hibernate.internal.log.DeprecationLogger_$logger",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "org.jboss.logging.Logger"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.hibernate.internal.log.DeprecationLogger_$logger_en"
+    },
+    {
+      "type": "org.hibernate.internal.log.DeprecationLogger_$logger_en_US"
+    },
+    {
+      "type": "org.hibernate.jpa.HibernatePersistenceProvider"
+    },
+    {
+      "type": "org.hibernate.metamodel.mapping.MappingModelCreationLogging_$logger",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "org.jboss.logging.Logger"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.hibernate.metamodel.mapping.MappingModelCreationLogging_$logger_en"
+    },
+    {
+      "type": "org.hibernate.metamodel.mapping.MappingModelCreationLogging_$logger_en_US"
+    },
+    {
+      "type": "org.hibernate.persister.entity.SingleTableEntityPersister",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "org.hibernate.mapping.PersistentClass",
+            "org.hibernate.cache.spi.access.EntityDataAccess",
+            "org.hibernate.cache.spi.access.NaturalIdDataAccess",
+            "org.hibernate.metamodel.spi.RuntimeModelCreationContext"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.hibernate.persister.internal.PersisterFactoryImpl"
+    },
+    {
+      "type": "org.hibernate.persister.internal.StandardPersisterClassResolver"
+    },
+    {
+      "type": "org.hibernate.property.access.internal.PropertyAccessStrategyResolverStandardImpl"
+    },
+    {
+      "type": "org.hibernate.query.QueryLogging_$logger",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "org.jboss.logging.Logger"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.hibernate.query.QueryLogging_$logger_en"
+    },
+    {
+      "type": "org.hibernate.query.QueryLogging_$logger_en_US"
+    },
+    {
+      "type": "org.hibernate.query.hql.HqlLogging_$logger",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "org.jboss.logging.Logger"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.hibernate.query.hql.HqlLogging_$logger_en"
+    },
+    {
+      "type": "org.hibernate.query.hql.HqlLogging_$logger_en_US"
+    },
+    {
+      "type": "org.hibernate.query.hql.spi.DotIdentifierConsumer[]"
+    },
+    {
+      "type": "org.hibernate.query.hql.spi.SqmCreationProcessingState[]"
+    },
+    {
+      "type": "org.hibernate.query.sqm.spi.ParameterDeclarationContext[]"
+    },
+    {
+      "type": "org.hibernate.resource.beans.internal.ManagedBeanRegistryImpl"
+    },
+    {
+      "type": "org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl"
+    },
+    {
+      "type": "org.hibernate.service.internal.SessionFactoryServiceRegistryFactoryImpl"
+    },
+    {
+      "type": "org.hibernate.sql.ast.Clause[]"
+    },
+    {
+      "type": "org.hibernate.sql.ast.internal.ParameterMarkerStrategyStandard"
+    },
+    {
+      "type": "org.hibernate.sql.ast.tree.SqlAstTreeLogger_$logger",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "org.jboss.logging.Logger"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.hibernate.sql.ast.tree.SqlAstTreeLogger_$logger_en"
+    },
+    {
+      "type": "org.hibernate.sql.ast.tree.SqlAstTreeLogger_$logger_en_US"
+    },
+    {
+      "type": "org.hibernate.sql.ast.tree.Statement[]"
+    },
+    {
+      "type": "org.hibernate.sql.ast.tree.select.QueryPart[]"
+    },
+    {
+      "type": "org.hibernate.sql.results.LoadingLogger_$logger",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "org.jboss.logging.Logger"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.hibernate.sql.results.LoadingLogger_$logger_en"
+    },
+    {
+      "type": "org.hibernate.sql.results.LoadingLogger_$logger_en_US"
+    },
+    {
+      "type": "org.hibernate.sql.results.ResultsLogger_$logger",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "org.jboss.logging.Logger"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.hibernate.sql.results.ResultsLogger_$logger_en"
+    },
+    {
+      "type": "org.hibernate.sql.results.ResultsLogger_$logger_en_US"
+    },
+    {
+      "type": "org.hibernate.sql.results.jdbc.internal.JdbcValuesMappingProducerProviderStandard"
+    },
+    {
+      "type": "org.hibernate.sql.results.jdbc.spi.JdbcValuesSourceProcessingState[]"
+    },
+    {
+      "type": "org.hibernate.stat.internal.StatisticsImpl"
+    },
+    {
+      "type": "org.hibernate.type.SqlTypes",
+      "allPublicFields": true
+    },
+    {
+      "type": "org.hibernate.validator.HibernateValidator",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.hibernate.validator.internal.constraintvalidators.bv.NotNullValidator",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.hibernate.validator.internal.constraintvalidators.bv.notempty.NotEmptyValidatorForCharSequence",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.hibernate.validator.internal.constraintvalidators.bv.number.bound.AbstractMaxValidator",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MaxValidatorForInteger",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MinValidatorForInteger",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.hibernate.validator.internal.engine.resolver.JPATraversableResolver",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.hibernate.validator.internal.util.logging.Log_$logger",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "org.jboss.logging.Logger"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.hibernate.validator.internal.util.logging.Log_$logger_en"
+    },
+    {
+      "type": "org.hibernate.validator.internal.util.logging.Log_$logger_en_US"
+    },
+    {
+      "type": "org.hibernate.validator.internal.util.logging.Messages_$bundle",
+      "fields": [
+        {
+          "name": "INSTANCE"
+        }
+      ]
+    },
+    {
+      "type": "org.hibernate.validator.internal.util.logging.Messages_$bundle_en"
+    },
+    {
+      "type": "org.hibernate.validator.internal.util.logging.Messages_$bundle_en_US"
+    },
+    {
+      "type": "org.jboss.logmanager.LogManager"
+    },
+    {
+      "type": "org.joda.time.ReadableInstant"
+    },
+    {
+      "type": "org.jvnet.hk2.external.generator.ServiceLocatorGeneratorImpl"
+    },
+    {
+      "type": "org.jvnet.hk2.internal.DynamicConfigurationServiceImpl",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "org.glassfish.hk2.api.ServiceLocator"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.jvnet.hk2.internal.ServiceLocatorRuntimeImpl",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "org.glassfish.hk2.api.ServiceLocator"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.osgi.framework.BundleReference"
+    },
+    {
+      "type": "org.slf4j.Logger"
+    },
+    {
+      "type": "org.slf4j.spi.LocationAwareLogger",
+      "methods": [
+        {
+          "name": "log",
+          "parameterTypes": [
+            "org.slf4j.Marker",
+            "java.lang.String",
+            "int",
+            "java.lang.String",
+            "java.lang.Object[]",
+            "java.lang.Throwable"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "short[]"
+    },
+    {
+      "type": "sun.management.ClassLoadingImpl"
+    },
+    {
+      "type": "sun.management.CompilationImpl"
+    },
+    {
+      "type": "sun.management.ManagementFactoryHelper$1"
+    },
+    {
+      "type": "sun.management.ManagementFactoryHelper$PlatformLoggingImpl"
+    },
+    {
+      "type": "sun.management.MemoryImpl"
+    },
+    {
+      "type": "sun.management.MemoryManagerImpl"
+    },
+    {
+      "type": "sun.management.MemoryPoolImpl"
+    },
+    {
+      "type": "sun.management.RuntimeImpl"
+    },
+    {
+      "type": "sun.security.provider.DSA$SHA224withDSA",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.security.provider.DSA$SHA256withDSA",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.security.provider.JavaKeyStore$DualFormatJKS",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.security.provider.JavaKeyStore$JKS",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.security.provider.NativePRNG",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.security.SecureRandomParameters"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.security.provider.SHA",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.security.provider.SHA2$SHA224",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.security.provider.SHA2$SHA256",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.security.provider.SHA5$SHA384",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.security.provider.SHA5$SHA512",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.security.provider.X509Factory",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.security.rsa.PSSParameters",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.security.rsa.RSAKeyFactory$Legacy",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.security.rsa.RSAPSSSignature",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.security.rsa.RSASignature$SHA224withRSA",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.security.ssl.KeyManagerFactoryImpl$SunX509",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.security.ssl.SSLContextImpl$TLSContext",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.security.ssl.TrustManagerFactoryImpl$PKIXFactory",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.security.x509.SubjectKeyIdentifierExtension",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.lang.Boolean",
+            "java.lang.Object"
+          ]
+        }
+      ]
+    },
+    {
+      "type": {
+        "proxy": [
+          "jakarta.ws.rs.core.HttpHeaders",
+          "org.glassfish.hk2.api.ProxyCtl"
+        ]
+      }
+    },
+    {
+      "type": {
+        "proxy": [
+          "java.sql.Connection",
+          "javax.sql.PooledConnection"
+        ]
+      },
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.lang.reflect.InvocationHandler"
+          ]
+        }
+      ]
+    },
+    {
+      "type": {
+        "proxy": [
+          "java.sql.PreparedStatement"
+        ]
+      },
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.lang.reflect.InvocationHandler"
+          ]
+        }
+      ]
+    },
+    {
+      "type": {
+        "proxy": [
+          "java.sql.ResultSet"
+        ]
+      },
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.lang.reflect.InvocationHandler"
+          ]
+        }
+      ]
+    },
+    {
+      "type": {
+        "lambda": {
+          "declaringClass": "io.dropwizard.metrics.common.RegexStringMatchingStrategy",
+          "interfaces": [
+            "com.github.benmanes.caffeine.cache.CacheLoader"
+          ]
+        }
+      }
+    },
+    {
+      "type": {
+        "lambda": {
+          "declaringClass": "org.hibernate.event.internal.EntityCopyNotAllowedObserver",
+          "interfaces": [
+            "org.hibernate.event.spi.EntityCopyObserverFactory"
+          ]
+        }
+      }
+    }
+  ],
+  "resources": [
+    {
+      "glob": "META-INF/services/ch.qos.logback.classic.spi.Configurator"
+    },
+    {
+      "glob": "META-INF/services/com.fasterxml.jackson.databind.Module"
+    },
+    {
+      "glob": "META-INF/services/io.dropwizard.core.server.ServerFactory"
+    },
+    {
+      "glob": "META-INF/services/io.dropwizard.health.HealthFactory"
+    },
+    {
+      "glob": "META-INF/services/io.dropwizard.health.response.HealthResponderFactory"
+    },
+    {
+      "glob": "META-INF/services/io.dropwizard.health.response.HealthResponseProviderFactory"
+    },
+    {
+      "glob": "META-INF/services/io.dropwizard.jackson.Discoverable"
+    },
+    {
+      "glob": "META-INF/services/io.dropwizard.jetty.ConnectorFactory"
+    },
+    {
+      "glob": "META-INF/services/io.dropwizard.logging.common.AppenderFactory"
+    },
+    {
+      "glob": "META-INF/services/io.dropwizard.logging.common.LoggingFactory"
+    },
+    {
+      "glob": "META-INF/services/io.dropwizard.logging.common.filter.FilterFactory"
+    },
+    {
+      "glob": "META-INF/services/io.dropwizard.logging.common.layout.DiscoverableLayoutFactory"
+    },
+    {
+      "glob": "META-INF/services/io.dropwizard.metrics.common.ReporterFactory"
+    },
+    {
+      "glob": "META-INF/services/io.dropwizard.request.logging.RequestLogFactory"
+    },
+    {
+      "glob": "META-INF/services/io.dropwizard.views.common.ViewRenderer"
+    },
+    {
+      "glob": "META-INF/services/jakarta.el.ExpressionFactory"
+    },
+    {
+      "glob": "META-INF/services/jakarta.persistence.spi.PersistenceProvider"
+    },
+    {
+      "glob": "META-INF/services/jakarta.validation.ConstraintValidator"
+    },
+    {
+      "glob": "META-INF/services/jakarta.validation.spi.ValidationProvider"
+    },
+    {
+      "glob": "META-INF/services/jakarta.validation.valueextraction.ValueExtractor"
+    },
+    {
+      "glob": "META-INF/services/jakarta.ws.rs.container.DynamicFeature"
+    },
+    {
+      "glob": "META-INF/services/jakarta.ws.rs.core.Feature"
+    },
+    {
+      "glob": "META-INF/services/jakarta.ws.rs.ext.ExceptionMapper"
+    },
+    {
+      "glob": "META-INF/services/jakarta.ws.rs.ext.MessageBodyReader"
+    },
+    {
+      "glob": "META-INF/services/jakarta.ws.rs.ext.MessageBodyWriter"
+    },
+    {
+      "glob": "META-INF/services/jakarta.ws.rs.ext.RuntimeDelegate"
+    },
+    {
+      "glob": "META-INF/services/java.net.spi.InetAddressResolverProvider"
+    },
+    {
+      "glob": "META-INF/services/java.net.spi.URLStreamHandlerProvider"
+    },
+    {
+      "glob": "META-INF/services/java.nio.channels.spi.SelectorProvider"
+    },
+    {
+      "glob": "META-INF/services/java.time.zone.ZoneRulesProvider"
+    },
+    {
+      "glob": "META-INF/services/java.util.spi.ResourceBundleControlProvider"
+    },
+    {
+      "glob": "META-INF/services/javax.xml.stream.XMLEventFactory"
+    },
+    {
+      "glob": "META-INF/services/org.apache.juli.logging.Log"
+    },
+    {
+      "glob": "META-INF/services/org.eclipse.jetty.http.HttpFieldPreEncoder"
+    },
+    {
+      "glob": "META-INF/services/org.eclipse.jetty.util.security.CredentialProvider"
+    },
+    {
+      "glob": "META-INF/services/org.glassfish.hk2.extension.ServiceLocatorGenerator"
+    },
+    {
+      "glob": "META-INF/services/org.glassfish.jersey.innate.inject.spi.ExternalRegistrables"
+    },
+    {
+      "glob": "META-INF/services/org.glassfish.jersey.internal.inject.InjectionManagerFactory"
+    },
+    {
+      "glob": "META-INF/services/org.glassfish.jersey.internal.spi.AutoDiscoverable"
+    },
+    {
+      "glob": "META-INF/services/org.glassfish.jersey.internal.spi.ForcedAutoDiscoverable"
+    },
+    {
+      "glob": "META-INF/services/org.glassfish.jersey.model.internal.spi.ParameterServiceProvider"
+    },
+    {
+      "glob": "META-INF/services/org.glassfish.jersey.server.spi.ComponentProvider"
+    },
+    {
+      "glob": "META-INF/services/org.glassfish.jersey.server.spi.ContainerProvider"
+    },
+    {
+      "glob": "META-INF/services/org.glassfish.jersey.server.spi.ExternalRequestScope"
+    },
+    {
+      "glob": "META-INF/services/org.glassfish.jersey.servlet.internal.spi.ServletContainerProvider"
+    },
+    {
+      "glob": "META-INF/services/org.glassfish.jersey.servlet.spi.AsyncContextDelegateProvider"
+    },
+    {
+      "glob": "META-INF/services/org.glassfish.jersey.servlet.spi.FilterUrlMappingsProvider"
+    },
+    {
+      "glob": "META-INF/services/org.glassfish.jersey.spi.ExternalConfigurationProvider"
+    },
+    {
+      "glob": "META-INF/services/org.glassfish.jersey.spi.HeaderDelegateProvider"
+    },
+    {
+      "glob": "META-INF/services/org.hibernate.boot.model.FunctionContributor"
+    },
+    {
+      "glob": "META-INF/services/org.hibernate.boot.model.TypeContributor"
+    },
+    {
+      "glob": "META-INF/services/org.hibernate.boot.registry.selector.StrategyRegistrationProvider"
+    },
+    {
+      "glob": "META-INF/services/org.hibernate.boot.registry.selector.spi.DialectSelector"
+    },
+    {
+      "glob": "META-INF/services/org.hibernate.boot.spi.AdditionalJaxbMappingProducer"
+    },
+    {
+      "glob": "META-INF/services/org.hibernate.boot.spi.AdditionalMappingContributor"
+    },
+    {
+      "glob": "META-INF/services/org.hibernate.boot.spi.MetadataBuilderFactory"
+    },
+    {
+      "glob": "META-INF/services/org.hibernate.boot.spi.MetadataBuilderInitializer"
+    },
+    {
+      "glob": "META-INF/services/org.hibernate.boot.spi.MetadataContributor"
+    },
+    {
+      "glob": "META-INF/services/org.hibernate.boot.spi.MetadataSourcesContributor"
+    },
+    {
+      "glob": "META-INF/services/org.hibernate.boot.spi.SessionFactoryBuilderFactory"
+    },
+    {
+      "glob": "META-INF/services/org.hibernate.bytecode.spi.BytecodeProvider"
+    },
+    {
+      "glob": "META-INF/services/org.hibernate.engine.jdbc.dialect.spi.DialectResolver"
+    },
+    {
+      "glob": "META-INF/services/org.hibernate.event.spi.EventEngineContributor"
+    },
+    {
+      "glob": "META-INF/services/org.hibernate.event.spi.EventManager"
+    },
+    {
+      "glob": "META-INF/services/org.hibernate.id.factory.spi.GenerationTypeStrategyRegistration"
+    },
+    {
+      "glob": "META-INF/services/org.hibernate.integrator.spi.Integrator"
+    },
+    {
+      "glob": "META-INF/services/org.hibernate.query.criteria.spi.CriteriaBuilderExtension"
+    },
+    {
+      "glob": "META-INF/services/org.hibernate.service.spi.ServiceContributor"
+    },
+    {
+      "glob": "META-INF/services/org.hibernate.service.spi.SessionFactoryServiceContributor"
+    },
+    {
+      "glob": "META-INF/services/org.jboss.logging.LoggerProvider"
+    },
+    {
+      "glob": "META-INF/services/org.slf4j.spi.SLF4JServiceProvider"
+    },
+    {
+      "glob": "META-INF/validation.xml"
+    },
+    {
+      "glob": "banner.txt"
+    },
+    {
+      "glob": "freemarker/version.properties"
+    },
+    {
+      "glob": "hibernate.properties"
+    },
+    {
+      "glob": "io/dropwizard/jersey/DropwizardResourceConfig$SpecificBinder.class"
+    },
+    {
+      "glob": "jakarta/servlet/LocalStrings.properties"
+    },
+    {
+      "glob": "jakarta/servlet/LocalStrings_en.properties"
+    },
+    {
+      "glob": "jakarta/servlet/LocalStrings_en_US.properties"
+    },
+    {
+      "glob": "jakarta/servlet/http/LocalStrings.properties"
+    },
+    {
+      "glob": "jakarta/servlet/http/LocalStrings_en.properties"
+    },
+    {
+      "glob": "jakarta/servlet/http/LocalStrings_en_US.properties"
+    },
+    {
+      "glob": "java/lang/Class.class"
+    },
+    {
+      "glob": "java/lang/Object.class"
+    },
+    {
+      "glob": "logback-test.scmo"
+    },
+    {
+      "glob": "logback-test.xml"
+    },
+    {
+      "glob": "logback.scmo"
+    },
+    {
+      "glob": "logback.xml"
+    },
+    {
+      "glob": "net/sourceforge/argparse4j/internal/ArgumentParserImpl.properties"
+    },
+    {
+      "glob": "net/sourceforge/argparse4j/internal/ArgumentParserImpl_en.properties"
+    },
+    {
+      "glob": "net/sourceforge/argparse4j/internal/ArgumentParserImpl_en_US.properties"
+    },
+    {
+      "glob": "org/eclipse/jetty/http/encoding.properties"
+    },
+    {
+      "glob": "org/eclipse/jetty/http/mime.properties"
+    },
+    {
+      "glob": "org/eclipse/jetty/version/build.properties"
+    },
+    {
+      "glob": "org/glassfish/jersey/internal/build.properties"
+    },
+    {
+      "glob": "org/glassfish/jersey/internal/localization.properties"
+    },
+    {
+      "glob": "org/glassfish/jersey/internal/localization_en.properties"
+    },
+    {
+      "glob": "org/glassfish/jersey/internal/localization_en_US.properties"
+    },
+    {
+      "glob": "org/glassfish/jersey/server/internal/localization.properties"
+    },
+    {
+      "glob": "org/glassfish/jersey/server/internal/localization_en.properties"
+    },
+    {
+      "glob": "org/glassfish/jersey/server/internal/localization_en_US.properties"
+    },
+    {
+      "glob": "org/h2/util/data.zip"
+    },
+    {
+      "glob": "org/hibernate/hibernate-configuration-3.0.dtd"
+    },
+    {
+      "glob": "org/hibernate/hibernate-mapping-3.0.dtd"
+    },
+    {
+      "module": "com.oracle.graal.graal_enterprise",
+      "glob": "com/oracle/graal/compiler/enterprise/BulkAllocationSnippetTemplates.class"
+    },
+    {
+      "module": "com.oracle.graal.graal_enterprise",
+      "glob": "com/oracle/graal/enterprise/hotspot/phases/strings/StringBuilderSnippets.class"
+    },
+    {
+      "module": "com.oracle.graal.graal_enterprise",
+      "glob": "com/oracle/graal/enterprise/hotspot/replacements/HotSpotBulkAllocationSnippets.class"
+    },
+    {
+      "module": "com.oracle.graal.graal_enterprise",
+      "glob": "com/oracle/graal/vector/nodes/consumer/MaterializeVectorNode.class"
+    },
+    {
+      "module": "com.oracle.graal.graal_enterprise",
+      "glob": "com/oracle/graal/vector/replacements/CopyOfSnippets.class"
+    },
+    {
+      "module": "com.oracle.graal.graal_enterprise",
+      "glob": "com/oracle/graal/vector/replacements/UncheckedCopyOfNode.class"
+    },
+    {
+      "module": "com.oracle.graal.graal_enterprise",
+      "glob": "com/oracle/graal/vector/replacements/VectorSnippets.class"
+    },
+    {
+      "module": "java.base",
+      "glob": "java/lang/Boolean.class"
+    },
+    {
+      "module": "java.base",
+      "glob": "java/lang/Byte.class"
+    },
+    {
+      "module": "java.base",
+      "glob": "java/lang/Class.class"
+    },
+    {
+      "module": "java.base",
+      "glob": "java/lang/Integer.class"
+    },
+    {
+      "module": "java.base",
+      "glob": "java/lang/Long.class"
+    },
+    {
+      "module": "java.base",
+      "glob": "java/lang/Math.class"
+    },
+    {
+      "module": "java.base",
+      "glob": "java/lang/Number.class"
+    },
+    {
+      "module": "java.base",
+      "glob": "java/lang/Object.class"
+    },
+    {
+      "module": "java.base",
+      "glob": "java/lang/String.class"
+    },
+    {
+      "module": "java.base",
+      "glob": "java/lang/reflect/Modifier.class"
+    },
+    {
+      "module": "java.base",
+      "glob": "jdk/internal/icu/impl/data/icudt76b/nfkc.nrm"
+    },
+    {
+      "module": "jdk.graal.compiler",
+      "glob": "jdk/graal/compiler/hotspot/replacements/AssertionSnippets.class"
+    },
+    {
+      "module": "jdk.graal.compiler",
+      "glob": "jdk/graal/compiler/hotspot/replacements/ClassGetHubNode.class"
+    },
+    {
+      "module": "jdk.graal.compiler",
+      "glob": "jdk/graal/compiler/hotspot/replacements/HotSpotAllocationSnippets.class"
+    },
+    {
+      "module": "jdk.graal.compiler",
+      "glob": "jdk/graal/compiler/hotspot/replacements/HotSpotG1WriteBarrierSnippets.class"
+    },
+    {
+      "module": "jdk.graal.compiler",
+      "glob": "jdk/graal/compiler/hotspot/replacements/HotSpotHashCodeSnippets.class"
+    },
+    {
+      "module": "jdk.graal.compiler",
+      "glob": "jdk/graal/compiler/hotspot/replacements/HotSpotIsArraySnippets.class"
+    },
+    {
+      "module": "jdk.graal.compiler",
+      "glob": "jdk/graal/compiler/hotspot/replacements/HotSpotReplacementsUtil.class"
+    },
+    {
+      "module": "jdk.graal.compiler",
+      "glob": "jdk/graal/compiler/hotspot/replacements/InstanceOfSnippets.class"
+    },
+    {
+      "module": "jdk.graal.compiler",
+      "glob": "jdk/graal/compiler/hotspot/replacements/LoadExceptionObjectSnippets.class"
+    },
+    {
+      "module": "jdk.graal.compiler",
+      "glob": "jdk/graal/compiler/hotspot/replacements/MonitorSnippets.class"
+    },
+    {
+      "module": "jdk.graal.compiler",
+      "glob": "jdk/graal/compiler/hotspot/replacements/ObjectCloneSnippets.class"
+    },
+    {
+      "module": "jdk.graal.compiler",
+      "glob": "jdk/graal/compiler/hotspot/replacements/ObjectSnippets.class"
+    },
+    {
+      "module": "jdk.graal.compiler",
+      "glob": "jdk/graal/compiler/hotspot/replacements/RegisterFinalizerSnippets.class"
+    },
+    {
+      "module": "jdk.graal.compiler",
+      "glob": "jdk/graal/compiler/hotspot/replacements/TypeCheckSnippetUtils.class"
+    },
+    {
+      "module": "jdk.graal.compiler",
+      "glob": "jdk/graal/compiler/hotspot/replacements/arraycopy/HotSpotArraycopySnippets.class"
+    },
+    {
+      "module": "jdk.graal.compiler",
+      "glob": "jdk/graal/compiler/hotspot/stubs/ExceptionHandlerStub.class"
+    },
+    {
+      "module": "jdk.graal.compiler",
+      "glob": "jdk/graal/compiler/hotspot/stubs/ForeignCallSnippets.class"
+    },
+    {
+      "module": "jdk.graal.compiler",
+      "glob": "jdk/graal/compiler/hotspot/stubs/IntrinsicStubsGen.class"
+    },
+    {
+      "module": "jdk.graal.compiler",
+      "glob": "jdk/graal/compiler/hotspot/stubs/LookUpSecondarySupersTableStub.class"
+    },
+    {
+      "module": "jdk.graal.compiler",
+      "glob": "jdk/graal/compiler/hotspot/stubs/UnwindExceptionToCallerStub.class"
+    },
+    {
+      "module": "jdk.graal.compiler",
+      "glob": "jdk/graal/compiler/nodes/PiNode.class"
+    },
+    {
+      "module": "jdk.graal.compiler",
+      "glob": "jdk/graal/compiler/nodes/java/DynamicNewArrayNode.class"
+    },
+    {
+      "module": "jdk.graal.compiler",
+      "glob": "jdk/graal/compiler/nodes/java/DynamicNewInstanceNode.class"
+    },
+    {
+      "module": "jdk.graal.compiler",
+      "glob": "jdk/graal/compiler/nodes/java/NewArrayNode.class"
+    },
+    {
+      "module": "jdk.graal.compiler",
+      "glob": "jdk/graal/compiler/replacements/AllocationSnippets.class"
+    },
+    {
+      "module": "jdk.graal.compiler",
+      "glob": "jdk/graal/compiler/replacements/BoxingSnippets.class"
+    },
+    {
+      "module": "jdk.graal.compiler",
+      "glob": "jdk/graal/compiler/replacements/IdentityHashCodeSnippets.class"
+    },
+    {
+      "module": "jdk.graal.compiler",
+      "glob": "jdk/graal/compiler/replacements/IsArraySnippets.class"
+    },
+    {
+      "module": "jdk.graal.compiler",
+      "glob": "jdk/graal/compiler/replacements/ReplacementsUtil.class"
+    },
+    {
+      "module": "jdk.graal.compiler",
+      "glob": "jdk/graal/compiler/replacements/SnippetCounter.class"
+    },
+    {
+      "module": "jdk.graal.compiler",
+      "glob": "jdk/graal/compiler/replacements/SnippetIntegerHistogram.class"
+    },
+    {
+      "module": "jdk.graal.compiler",
+      "glob": "jdk/graal/compiler/replacements/StringLatin1Snippets.class"
+    },
+    {
+      "module": "jdk.graal.compiler",
+      "glob": "jdk/graal/compiler/replacements/arraycopy/ArrayCopyCallNode.class"
+    },
+    {
+      "module": "jdk.graal.compiler",
+      "glob": "jdk/graal/compiler/replacements/arraycopy/ArrayCopySnippets.class"
+    },
+    {
+      "module": "jdk.graal.compiler",
+      "glob": "jdk/graal/compiler/replacements/arraycopy/ArrayCopyWithDelayedLoweringNode.class"
+    },
+    {
+      "module": "jdk.graal.compiler",
+      "glob": "jdk/graal/compiler/replacements/gc/G1WriteBarrierSnippets.class"
+    },
+    {
+      "module": "jdk.graal.compiler",
+      "glob": "jdk/graal/compiler/replacements/gc/WriteBarrierSnippets.class"
+    },
+    {
+      "module": "jdk.graal.compiler",
+      "glob": "jdk/graal/compiler/replacements/nodes/AssertionNode.class"
+    },
+    {
+      "module": "jdk.internal.vm.ci",
+      "glob": "jdk/vm/ci/code/CodeUtil.class"
+    },
+    {
+      "module": "jdk.jfr",
+      "glob": "jdk/jfr/internal/query/view.ini"
+    },
+    {
+      "module": "org.graalvm.word",
+      "glob": "org/graalvm/word/LocationIdentity.class"
+    },
+    {
+      "bundle": "jakarta.servlet.LocalStrings"
+    },
+    {
+      "bundle": "jakarta.servlet.http.LocalStrings"
+    },
+    {
+      "bundle": "net.sourceforge.argparse4j.internal.ArgumentParserImpl"
+    },
+    {
+      "bundle": "org.glassfish.jersey.internal.localization"
+    },
+    {
+      "bundle": "org.glassfish.jersey.server.internal.localization"
+    }
+  ]
+}

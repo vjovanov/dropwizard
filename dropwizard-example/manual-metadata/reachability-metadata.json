@@ -56,6 +56,51 @@
     },
     {
       "type": "com.oracle.svm.core.genscavenge.IncrementalGarbageCollectorMXBean"
+    },
+    {
+      "type": "org.hibernate.event.spi.AutoFlushEventListener[]"
+    },
+    {
+      "type": "org.hibernate.event.spi.PersistEventListener[]"
+    },
+    {
+      "type": "org.hibernate.event.spi.DeleteEventListener[]"
+    },
+    {
+      "type": "org.hibernate.event.spi.DirtyCheckEventListener[]"
+    },
+    {
+      "type": "org.hibernate.event.spi.EvictEventListener[]"
+    },
+    {
+      "type": "org.hibernate.event.spi.FlushEventListener[]"
+    },
+    {
+      "type": "org.hibernate.cache.internal.DisabledCaching"
+    },
+    {
+      "type": "org.hibernate.service.internal.SessionFactoryServiceRegistryFactoryImpl"
+    },
+    {
+      "type": "org.hibernate.boot.beanvalidation.TypeSafeActivator",
+      "methods": [
+        {
+          "name": "activate",
+          "parameterTypes": [
+            "org.hibernate.boot.beanvalidation.ActivationContext"
+          ]
+        }
+      ]
+    },
+    {
+      "type": {
+        "lambda": {
+          "declaringClass": "org.hibernate.event.internal.EntityCopyNotAllowedObserver",
+          "interfaces": [
+            "org.hibernate.event.spi.EntityCopyObserverFactory"
+          ]
+        }
+      }
     }
   ],
   "resources": [
@@ -109,6 +154,9 @@
     },
     {
       "glob": "META-INF/services/ch.qos.logback.classic.spi.Configurator"
+    },
+    {
+      "glob": "META-INF/services/org.hibernate.event.spi.EventEngineContributor"
     }
   ]
 }

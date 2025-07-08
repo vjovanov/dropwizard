@@ -115,6 +115,9 @@
       "type": "[Ljavax.management.MBeanOperationInfo;"
     },
     {
+      "type": "[Ljavax.management.openmbean.CompositeData;"
+    },
+    {
       "type": "[Lliquibase.ChecksumVersion;"
     },
     {
@@ -494,6 +497,52 @@
       ]
     },
     {
+      "type": "com.oracle.svm.core.code.CodeCacheManagerMXBean"
+    },
+    {
+      "type": "com.oracle.svm.core.code.CodeCachePoolMXBean$NativeMetadataPool"
+    },
+    {
+      "type": "com.oracle.svm.core.genscavenge.CompleteGarbageCollectorMXBean",
+      "allPublicConstructors": true
+    },
+    {
+      "type": "com.oracle.svm.core.genscavenge.GenScavengeMemoryPoolMXBeans$EdenMemoryPoolMXBean",
+      "allPublicConstructors": true
+    },
+    {
+      "type": "com.oracle.svm.core.genscavenge.GenScavengeMemoryPoolMXBeans$OldGenerationMemoryPoolMXBean",
+      "allPublicConstructors": true
+    },
+    {
+      "type": "com.oracle.svm.core.genscavenge.GenScavengeMemoryPoolMXBeans$SurvivorMemoryPoolMXBean",
+      "allPublicConstructors": true
+    },
+    {
+      "type": "com.oracle.svm.core.genscavenge.HeapImplMemoryMXBean",
+      "allPublicConstructors": true
+    },
+    {
+      "type": "com.oracle.svm.core.genscavenge.IncrementalGarbageCollectorMXBean",
+      "allPublicConstructors": true
+    },
+    {
+      "type": "com.oracle.svm.core.jdk.management.SubstrateClassLoadingMXBean",
+      "allPublicConstructors": true
+    },
+    {
+      "type": "com.oracle.svm.core.jdk.management.SubstrateCompilationMXBean",
+      "allPublicConstructors": true
+    },
+    {
+      "type": "com.oracle.svm.core.jdk.management.SubstrateRuntimeMXBean",
+      "allPublicConstructors": true
+    },
+    {
+      "type": "com.oracle.svm.core.jdk.management.SubstrateThreadMXBean",
+      "allPublicConstructors": true
+    },
+    {
       "type": "com.sun.el.ExpressionFactoryImpl",
       "methods": [
         {
@@ -507,6 +556,10 @@
     },
     {
       "type": "com.sun.management.GarbageCollectorMXBean",
+      "allPublicMethods": true
+    },
+    {
+      "type": "com.sun.management.GcInfo",
       "allPublicMethods": true
     },
     {
@@ -1203,7 +1256,8 @@
     },
     {
       "type": "java.lang.Deprecated",
-      "allDeclaredMethods": true
+      "allDeclaredMethods": true,
+      "allPublicMethods": true
     },
     {
       "type": "java.lang.Double"
@@ -1268,6 +1322,10 @@
     },
     {
       "type": "java.lang.Short"
+    },
+    {
+      "type": "java.lang.StackTraceElement",
+      "allPublicMethods": true
     },
     {
       "type": "java.lang.StackTraceElement[]"
@@ -1339,6 +1397,10 @@
       "allPublicMethods": true
     },
     {
+      "type": "java.lang.management.LockInfo",
+      "allPublicMethods": true
+    },
+    {
       "type": "java.lang.management.MemoryMXBean",
       "allPublicMethods": true
     },
@@ -1351,7 +1413,19 @@
       "allPublicMethods": true
     },
     {
+      "type": "java.lang.management.MemoryUsage",
+      "allPublicMethods": true
+    },
+    {
+      "type": "java.lang.management.MonitorInfo",
+      "allPublicMethods": true
+    },
+    {
       "type": "java.lang.management.RuntimeMXBean",
+      "allPublicMethods": true
+    },
+    {
+      "type": "java.lang.management.ThreadInfo",
       "allPublicMethods": true
     },
     {
@@ -1736,6 +1810,15 @@
           "parameterTypes": []
         }
       ]
+    },
+    {
+      "type": "javax.management.openmbean.CompositeData"
+    },
+    {
+      "type": "javax.management.openmbean.CompositeData[]"
+    },
+    {
+      "type": "javax.management.openmbean.TabularData"
     },
     {
       "type": "javax.money.MonetaryAmount"
@@ -5960,6 +6043,15 @@
       "type": "long[]"
     },
     {
+      "type": "net.sourceforge.argparse4j.internal.ArgumentParserImpl"
+    },
+    {
+      "type": "net.sourceforge.argparse4j.internal.ArgumentParserImpl_en"
+    },
+    {
+      "type": "net.sourceforge.argparse4j.internal.ArgumentParserImpl_en_US"
+    },
+    {
       "type": "org.apache.log4j.Logger"
     },
     {
@@ -6918,6 +7010,12 @@
       "glob": "liquibase/i18n/liquibase-core.properties"
     },
     {
+      "glob": "liquibase/i18n/liquibase-core_en.properties"
+    },
+    {
+      "glob": "liquibase/i18n/liquibase-core_en_US.properties"
+    },
+    {
       "glob": "migrations.xml"
     },
     {
@@ -6925,6 +7023,9 @@
     },
     {
       "glob": "net/sourceforge/argparse4j/internal/ArgumentParserImpl_en.properties"
+    },
+    {
+      "glob": "net/sourceforge/argparse4j/internal/ArgumentParserImpl_en_US.properties"
     },
     {
       "glob": "org/h2/util/data.zip"
@@ -6946,6 +7047,12 @@
     },
     {
       "bundle": "com.sun.org.apache.xerces.internal.impl.xpath.regex.message"
+    },
+    {
+      "bundle": "liquibase/i18n/liquibase-core"
+    },
+    {
+      "bundle": "net.sourceforge.argparse4j.internal.ArgumentParserImpl"
     }
   ]
 }
