@@ -2,8 +2,113 @@
   "reflection": [
     {
       "type": "java.lang.management.ThreadInfo"
+    },
+    {
+      "type": "java.lang.management.LockInfo"
+    },
+    {
+      "type": "java.lang.StackTraceElement"
+    },
+    {
+      "type": "java.lang.management.MonitorInfo"
+    },
+    {
+      "type": "java.lang.management.MemoryUsage"
+    },
+    {
+      "type": "com.oracle.svm.core.jdk.management.SubstrateRuntimeMXBean"
+    },
+    {
+      "type": "com.oracle.svm.core.jdk.management.SubstrateThreadMXBean"
+    },
+    {
+      "type": "com.oracle.svm.core.jdk.management.SubstrateCompilationMXBean"
+    },
+    {
+      "type": "com.oracle.svm.core.jdk.management.SubstrateClassLoadingMXBean"
+    },
+    {
+      "type": "com.sun.management.GcInfo"
+    },
+    {
+      "type": "com.oracle.svm.core.code.CodeCachePoolMXBean$CodeAndDataPool"
+    },
+    {
+      "type": "com.oracle.svm.core.genscavenge.GenScavengeMemoryPoolMXBeans$EdenMemoryPoolMXBean"
+    },
+    {
+      "type": "com.oracle.svm.core.genscavenge.GenScavengeMemoryPoolMXBeans$SurvivorMemoryPoolMXBean"
+    },
+    {
+      "type": "com.oracle.svm.core.genscavenge.GenScavengeMemoryPoolMXBeans$OldGenerationMemoryPoolMXBean"
+    },
+    {
+      "type": "com.oracle.svm.core.code.CodeCachePoolMXBean$NativeMetadataPool"
+    },
+    {
+      "type": "com.oracle.svm.core.genscavenge.CompleteGarbageCollectorMXBean"
+    },
+    {
+      "type": "com.oracle.svm.core.code.CodeCacheManagerMXBean"
+    },
+    {
+      "type": "com.oracle.svm.core.genscavenge.HeapImplMemoryMXBean"
+    },
+    {
+      "type": "com.oracle.svm.core.genscavenge.IncrementalGarbageCollectorMXBean"
     }
   ],
   "resources": [
+    {
+      "glob": "META-INF/services/jakarta.validation.ConstraintValidator"
+    },
+    {
+      "glob": "META-INF/services/jakarta.el.ExpressionFactory"
+    },
+    {
+      "glob": "META-INF/validation.xml"
+    },
+    {
+      "glob": "META-INF/services/jakarta.validation.valueextraction.ValueExtractor"
+    },
+    {
+      "glob": "META-INF/services/org.jboss.logging.LoggerProvider"
+    },
+    {
+      "glob": "META-INF/services/io.dropwizard.logging.common.layout.DiscoverableLayoutFactory"
+    },
+    {
+      "glob": "logback.xml"
+    },
+    {
+      "bundle": "liquibase/i18n/liquibase-core"
+    },
+    {
+      "glob": "META-INF/services/java.net.spi.InetAddressResolverProvider"
+    },
+    {
+      "glob": "META-INF/services/javax.xml.parsers.SAXParserFactory"
+    },
+    {
+      "glob": "META-INF/services/liquibase.configuration.ConfiguredValueModifier"
+    },
+    {
+      "glob": "META-INF/services/org.apache.juli.logging.Log"
+    },
+    {
+      "bundle": "net.sourceforge.argparse4j.internal.ArgumentParserImpl"
+    },
+    {
+      "glob": "logback-test.xml"
+    },
+    {
+      "glob": "logback.scmo"
+    },
+    {
+      "glob": "logback-test.scmo"
+    },
+    {
+      "glob": "META-INF/services/ch.qos.logback.classic.spi.Configurator"
+    }
   ]
 }
