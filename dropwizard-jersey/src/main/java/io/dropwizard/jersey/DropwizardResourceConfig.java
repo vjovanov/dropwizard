@@ -36,7 +36,7 @@ import java.util.List;
 import java.util.Objects;
 import java.util.Set;
 import java.util.TreeSet;
-import java.util.UUID;
+import java.util.concurrent.atomic.AtomicLong;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
@@ -48,6 +48,8 @@ public class DropwizardResourceConfig extends ResourceConfig {
     private static final TypeResolver TYPE_RESOLVER = new TypeResolver();
 
     private static final Pattern PATH_DIRTY_SLASHES = Pattern.compile("\\s*/\\s*/+\\s*");
+
+    private static final AtomicLong classSuffix = new AtomicLong();
 
     private String urlPattern = "/*";
     private String contextPath = "/";
@@ -160,7 +162,7 @@ public class DropwizardResourceConfig extends ResourceConfig {
                 // doesn't add new bindings for the same class
                 final ClassPool pool = ClassPool.getDefault();
                 pool.insertClassPath(new LoaderClassPath(this.getClass().getClassLoader()));
-                final CtClass cc = pool.makeClass(SpecificBinder.class.getName() + UUID.randomUUID());
+                final CtClass cc = pool.makeClass(SpecificBinder.class.getName() + "_" + classSuffix.incrementAndGet());
                 cc.setSuperclass(pool.get(SpecificBinder.class.getName()));
                 final Object binderProxy = cc.toClass(SpecificBinder.class).getConstructor(Object.class, Class.class).newInstance(object, clazz);
                 super.register(binderProxy);

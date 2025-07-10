@@ -3706,6 +3706,12 @@
           "parameterTypes": []
         },
         {
+          "name": "getBoolean",
+          "parameterTypes": [
+            "int"
+          ]
+        },
+        {
           "name": "getInt",
           "parameterTypes": [
             "int"
@@ -3768,10 +3774,30 @@
           "parameterTypes": []
         },
         {
+          "name": "execute",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
           "name": "executeQuery",
           "parameterTypes": [
             "java.lang.String"
           ]
+        },
+        {
+          "name": "executeUpdate",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "getMoreResults",
+          "parameterTypes": []
+        },
+        {
+          "name": "getUpdateCount",
+          "parameterTypes": []
         },
         {
           "name": "getWarnings",
@@ -3862,6 +3888,15 @@
     {
       "type": "java.util.SequencedCollection",
       "allDeclaredFields": true
+    },
+    {
+      "type": "java.util.concurrent.ConcurrentHashMap",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
     },
     {
       "type": "java.util.concurrent.Executor"
@@ -4263,7 +4298,49 @@
           "parameterTypes": []
         },
         {
+          "name": "setCatalogName",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setIfNotExists",
+          "parameterTypes": [
+            "java.lang.Boolean"
+          ]
+        },
+        {
+          "name": "setRemarks",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setRowDependencies",
+          "parameterTypes": [
+            "java.lang.Boolean"
+          ]
+        },
+        {
+          "name": "setSchemaName",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
           "name": "setTableName",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setTableType",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setTablespace",
           "parameterTypes": [
             "java.lang.String"
           ]
@@ -4965,6 +5042,225 @@
     },
     {
       "type": "liquibase.database.jvm.JdbcConnectionPatterns"
+    },
+    {
+      "type": "liquibase.datatype.core.BigIntType",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        },
+        {
+          "name": "setAutoIncrement",
+          "parameterTypes": [
+            "boolean"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "liquibase.datatype.core.BinaryTypeSnowflake",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "liquibase.datatype.core.BlobType",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "liquibase.datatype.core.BooleanType",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "liquibase.datatype.core.CharType"
+    },
+    {
+      "type": "liquibase.datatype.core.ClobType",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "liquibase.datatype.core.ClobTypeSnowflake",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "liquibase.datatype.core.CurrencyType"
+    },
+    {
+      "type": "liquibase.datatype.core.DatabaseFunctionType"
+    },
+    {
+      "type": "liquibase.datatype.core.DateTimeType",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "liquibase.datatype.core.DateType",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "liquibase.datatype.core.DateTypeSnowflake",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "liquibase.datatype.core.DecimalType"
+    },
+    {
+      "type": "liquibase.datatype.core.DoubleDataTypeSnowflake",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "liquibase.datatype.core.DoubleType",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "liquibase.datatype.core.FloatType"
+    },
+    {
+      "type": "liquibase.datatype.core.IntType",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "liquibase.datatype.core.MediumIntType"
+    },
+    {
+      "type": "liquibase.datatype.core.NCharType"
+    },
+    {
+      "type": "liquibase.datatype.core.NVarcharType"
+    },
+    {
+      "type": "liquibase.datatype.core.NumberType"
+    },
+    {
+      "type": "liquibase.datatype.core.SmallIntType"
+    },
+    {
+      "type": "liquibase.datatype.core.TextDataTypeSnowflake",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "liquibase.datatype.core.TimeType",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "liquibase.datatype.core.TimeTypeSnowflake",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "liquibase.datatype.core.TimestampNTZTypeSnowflake",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "liquibase.datatype.core.TimestampType",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "liquibase.datatype.core.TimestampTypeSnowflake",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "liquibase.datatype.core.TinyIntType"
+    },
+    {
+      "type": "liquibase.datatype.core.UUIDType"
+    },
+    {
+      "type": "liquibase.datatype.core.UnknownType"
+    },
+    {
+      "type": "liquibase.datatype.core.VarcharType",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "liquibase.datatype.core.XMLType"
     },
     {
       "type": "liquibase.diff.compare.core.CatalogComparator"
@@ -7396,6 +7692,15 @@
       ]
     },
     {
+      "type": "sun.security.provider.SecureRandom",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
       "type": "sun.security.provider.X509Factory",
       "methods": [
         {
@@ -7749,6 +8054,9 @@
     },
     {
       "glob": "META-INF/services/liquibase.database.jvm.ConnectionPatterns"
+    },
+    {
+      "glob": "META-INF/services/liquibase.datatype.LiquibaseDataType"
     },
     {
       "glob": "META-INF/services/liquibase.diff.compare.DatabaseObjectComparator"

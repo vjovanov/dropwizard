@@ -1626,7 +1626,7 @@
       "type": "io.dropwizard.jersey.DropwizardResourceConfig$SpecificBinder"
     },
     {
-      "type": "io.dropwizard.jersey.DropwizardResourceConfig$SpecificBinder831e7017-a925-48cb-89f4-6f5af8730e42",
+      "type": "io.dropwizard.jersey.DropwizardResourceConfig$SpecificBinder_1",
       "allDeclaredFields": true,
       "methods": [
         {
@@ -1639,7 +1639,7 @@
       ]
     },
     {
-      "type": "io.dropwizard.jersey.DropwizardResourceConfig$SpecificBinder8ac1949d-e58d-4468-b998-2e5db1274e6f",
+      "type": "io.dropwizard.jersey.DropwizardResourceConfig$SpecificBinder_2",
       "allDeclaredFields": true,
       "methods": [
         {
@@ -1652,7 +1652,7 @@
       ]
     },
     {
-      "type": "io.dropwizard.jersey.DropwizardResourceConfig$SpecificBinderb8638f94-ee60-46e6-849b-b0390184caaa",
+      "type": "io.dropwizard.jersey.DropwizardResourceConfig$SpecificBinder_3",
       "allDeclaredFields": true,
       "methods": [
         {
@@ -1665,7 +1665,7 @@
       ]
     },
     {
-      "type": "io.dropwizard.jersey.DropwizardResourceConfig$SpecificBindercbcd6842-89ea-4d66-abc5-2ca2ed8bdc19",
+      "type": "io.dropwizard.jersey.DropwizardResourceConfig$SpecificBinder_4",
       "allDeclaredFields": true,
       "methods": [
         {
@@ -1678,7 +1678,7 @@
       ]
     },
     {
-      "type": "io.dropwizard.jersey.DropwizardResourceConfig$SpecificBinderdbaae112-1b5a-4039-be19-fce1a62a722a",
+      "type": "io.dropwizard.jersey.DropwizardResourceConfig$SpecificBinder_5",
       "allDeclaredFields": true,
       "methods": [
         {
@@ -1691,7 +1691,7 @@
       ]
     },
     {
-      "type": "io.dropwizard.jersey.DropwizardResourceConfig$SpecificBinderec7a16cd-6c22-4403-87a1-bdd5559155af",
+      "type": "io.dropwizard.jersey.DropwizardResourceConfig$SpecificBinder_6",
       "allDeclaredFields": true,
       "methods": [
         {

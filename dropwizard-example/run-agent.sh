@@ -9,13 +9,13 @@ $GRAALVM_HOME/bin/java -agentlib:native-image-agent=config-output-dir=agent-serv
 
 pid=$!
 
-echo Send requests after 30 seconds
-sleep 30
+echo Send requests after 50 seconds
+sleep 50
 
-for i in {1..10}
+for i in {1..20}
 do
   curl -H "Content-Type: application/json" -X POST -d '{"fullName":"Other Person","jobTitle":"Other Title"}' http://localhost:8080/people
-  sleep 1 
+  sleep 1
 done
 
 sleep 1

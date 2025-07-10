@@ -1,0 +1,31 @@
+[
+  {
+    "type": "agent-extracted",
+    "classes": [
+      {
+        "nameInfo": "io/dropwizard/jersey/DropwizardResourceConfig$SpecificBinder_4",
+        "hash": "LnS8gxlxXGJRFSIYBtdEUC"
+      },
+      {
+        "nameInfo": "io/dropwizard/jersey/DropwizardResourceConfig$SpecificBinder_5",
+        "hash": "mKtZYQILUlEn7ZBDghXV5L"
+      },
+      {
+        "nameInfo": "io/dropwizard/jersey/DropwizardResourceConfig$SpecificBinder_2",
+        "hash": "LSA3FEvWGwCXRo9BWPS4aB"
+      },
+      {
+        "nameInfo": "io/dropwizard/jersey/DropwizardResourceConfig$SpecificBinder_1",
+        "hash": "CO40ud5QRrAMIlbGDOuVC7"
+      },
+      {
+        "nameInfo": "io/dropwizard/jersey/DropwizardResourceConfig$SpecificBinder_6",
+        "hash": "4XrpA1ARksCpZJMqpY7okH"
+      },
+      {
+        "nameInfo": "io/dropwizard/jersey/DropwizardResourceConfig$SpecificBinder_3",
+        "hash": "LMd5z4xox3LSxwQM2EZ1fI"
+      }
+    ]
+  }
+]

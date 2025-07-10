@@ -50,5 +50,36 @@ To test the example application run the following commands.
 * To post data into the application.
 
 	curl -H "Content-Type: application/json" -X POST -d '{"fullName":"Other Person","jobTitle":"Other Title"}' http://localhost:8080/people
-	
+
 	open http://localhost:8080/people
+
+
+# Building the Native Image
+The build needs to be performed with Java 17:
+```bash
+./mvnw package
+cd dropwizard-example
+```
+
+After building run the following:
+
+```bash
+./remove-from-jar.sh target/dropwizard-example-5.0.0-SNAPSHOT.jar META-INF/services/org.hibernate.bytecode.spi.BytecodeProvider
+```
+
+This will prevent the usage of byte budy in hibernate.
+
+Then set `GRAALVM_HOME` to the latest GraalVM build.
+
+The metadata is already in the repo, however, there are several scripts to collect the metadata:
+1. `run-agent.sh` runs the Java agent and outputs `agent-metadata` and `agent-server-metadata` for two apps in this repo. The `agent-server-metadata` contains predefined classes which need a special patch to be generated (GR-67441). Currently, one can filter those classes with `remove-extra-defined-classes.sh`.
+2. `build-preserve.sh` followed by `run-native-trace.sh` produces a native trace and stores it into `native-metadata` and `native-metadata-server`. This metadata needs slight cleanup due to GR-67321.
+
+Finally, to build the native image use
+```bash
+$ ./build.sh
+```
+and to run
+```bash
+$ ./run.sh
+```
